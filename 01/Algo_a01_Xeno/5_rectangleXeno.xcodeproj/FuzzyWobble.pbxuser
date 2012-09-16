@@ -2,7 +2,7 @@
 {
 	3938DA7516023642009B2059 /* rectangle.cpp */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {846, 600}}";
+			sepNavIntBoundsRect = "{{0, 0}, {846, 675}}";
 			sepNavSelRange = "{611, 0}";
 			sepNavVisRange = "{0, 614}";
 		};
@@ -118,6 +118,16 @@
 		vrLen = 614;
 		vrLoc = 0;
 	};
+	3938DD73160643DB009B2059 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3938DA7516023642009B2059 /* rectangle.cpp */;
+		name = "rectangle.cpp: 21";
+		rLen = 0;
+		rLoc = 611;
+		rType = 0;
+		vrLen = 614;
+		vrLoc = 0;
+	};
 	E4B69B4C0A3A1720003C02F2 /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = 3938DA7F16023642009B2059 /* 5_rectangleXeno */;
@@ -134,7 +144,7 @@
 					20,
 					668,
 					20,
-					48.16259765625,
+					48,
 					43,
 					43,
 					20,
@@ -149,16 +159,17 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 369243714;
-			PBXWorkspaceStateSaveDate = 369243714;
+			PBXPerProjectTemplateStateSaveDate = 369509336;
+			PBXWorkspaceStateSaveDate = 369509336;
 		};
 		perUserProjectItems = {
-			3938DC3916025489009B2059 /* PBXTextBookmark */ = 3938DC3916025489009B2059 /* PBXTextBookmark */;
-			3938DC3B16025489009B2059 /* PBXTextBookmark */ = 3938DC3B16025489009B2059 /* PBXTextBookmark */;
-			3938DC3C16025489009B2059 /* PBXTextBookmark */ = 3938DC3C16025489009B2059 /* PBXTextBookmark */;
-			3938DC401602551A009B2059 /* PBXTextBookmark */ = 3938DC401602551A009B2059 /* PBXTextBookmark */;
-			3938DC411602551A009B2059 /* PBXTextBookmark */ = 3938DC411602551A009B2059 /* PBXTextBookmark */;
-			3938DC421602551A009B2059 /* PBXTextBookmark */ = 3938DC421602551A009B2059 /* PBXTextBookmark */;
+			3938DC3916025489009B2059 = 3938DC3916025489009B2059 /* PBXTextBookmark */;
+			3938DC3B16025489009B2059 = 3938DC3B16025489009B2059 /* PBXTextBookmark */;
+			3938DC3C16025489009B2059 = 3938DC3C16025489009B2059 /* PBXTextBookmark */;
+			3938DC401602551A009B2059 = 3938DC401602551A009B2059 /* PBXTextBookmark */;
+			3938DC411602551A009B2059 = 3938DC411602551A009B2059 /* PBXTextBookmark */;
+			3938DC421602551A009B2059 = 3938DC421602551A009B2059 /* PBXTextBookmark */;
+			3938DD73160643DB009B2059 /* PBXTextBookmark */ = 3938DD73160643DB009B2059 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 3938DAB11602364D009B2059 /* Source Control */;
 		userBuildSettings = {

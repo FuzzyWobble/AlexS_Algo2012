@@ -20,16 +20,6 @@
 		vrLen = 513;
 		vrLoc = 99;
 	};
-	3938DCC6160268D3009B2059 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
-		name = "testApp.cpp: 52";
-		rLen = 0;
-		rLoc = 1576;
-		rType = 0;
-		vrLen = 788;
-		vrLoc = 1296;
-	};
 	3938DCC7160268D3009B2059 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
@@ -39,6 +29,16 @@
 		rType = 0;
 		vrLen = 738;
 		vrLoc = 1780;
+	};
+	3938DD8616066302009B2059 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
+		name = "testApp.cpp: 70";
+		rLen = 0;
+		rLoc = 2257;
+		rType = 0;
+		vrLen = 714;
+		vrLoc = 941;
 	};
 	3963959E151E50AC007545E9 /* emptyExample */ = {
 		isa = PBXExecutable;
@@ -125,14 +125,14 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 369252770;
-			PBXWorkspaceStateSaveDate = 369252770;
+			PBXPerProjectTemplateStateSaveDate = 369517220;
+			PBXWorkspaceStateSaveDate = 369517220;
 		};
 		perUserProjectItems = {
 			3938DCC4160268D3009B2059 /* PBXTextBookmark */ = 3938DCC4160268D3009B2059 /* PBXTextBookmark */;
 			3938DCC5160268D3009B2059 /* PBXTextBookmark */ = 3938DCC5160268D3009B2059 /* PBXTextBookmark */;
-			3938DCC6160268D3009B2059 /* PBXTextBookmark */ = 3938DCC6160268D3009B2059 /* PBXTextBookmark */;
 			3938DCC7160268D3009B2059 /* PBXTextBookmark */ = 3938DCC7160268D3009B2059 /* PBXTextBookmark */;
+			3938DD8616066302009B2059 /* PBXTextBookmark */ = 3938DD8616066302009B2059 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 396395B3151E50B5007545E9 /* Source Control */;
 		userBuildSettings = {
@@ -153,9 +153,9 @@
 	};
 	E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1156, 1785}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1156, 1725}}";
 			sepNavSelRange = "{2257, 0}";
-			sepNavVisRange = "{1780, 738}";
+			sepNavVisRange = "{941, 714}";
 		};
 	};
 	E4B69E1F0A3A1BDC003C02F2 /* testApp.h */ = {
