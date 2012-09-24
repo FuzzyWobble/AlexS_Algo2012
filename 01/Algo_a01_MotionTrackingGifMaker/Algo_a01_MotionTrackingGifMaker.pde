@@ -23,8 +23,8 @@ boolean startCreatingGif = false;
 boolean drawCircles = true;
 
 public void setup() {
-  yourGif = new Gif(this, "uh.gif"); 
-  animationFrames = Gif.getPImages(this, "uh.gif");
+  yourGif = new Gif(this, "robot_dance.gif"); 
+  animationFrames = Gif.getPImages(this, "robot_dance.gif");
   
   gifExport = new GifMaker(this, "export.gif");
   gifExport.setRepeat(0); // make it an "endless" animation
@@ -36,10 +36,10 @@ public void setup() {
   currentFrame = 0;
   totalFrames = animationFrames.length;
   
-  frameRate(100);
-  fill(241,96,233,100);
-  stroke(241,96,233,100);
-  strokeWeight(5);
+  //frameRate(100);
+  //fill(241,96,233,100);
+  //stroke(241,96,233,100);
+  //strokeWeight(5);
 }
 
 void draw() {
@@ -48,17 +48,21 @@ void draw() {
   
     if(trackingPoints[currentFrame] != null){ //point was set
       if(drawCircles == true){
-        ellipse(trackingPoints[currentFrame].x, trackingPoints[currentFrame].y,5,5);
+        //ellipse(trackingPoints[currentFrame].x, trackingPoints[currentFrame].y,5,5);
       }
-      for(int j=currentFrame;j>=0;j--){
+      int lineCount = 0;
+      for(int j=currentFrame;j>=currentFrame-9;j--){
         if(j-1>=0){
+          int opac = int((1.0-(lineCount/9.0))*250.0);
+          stroke(241,96,233,opac);
+          strokeWeight(9-lineCount);
           if(trackingPoints[j-1] != null && trackingPoints[j] != null){
             line(trackingPoints[j].x,trackingPoints[j].y,trackingPoints[j-1].x,trackingPoints[j-1].y);
           }
         }
+      lineCount++;  
       }
     }
-  
   
 }
 
