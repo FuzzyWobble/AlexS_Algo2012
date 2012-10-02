@@ -64,25 +64,25 @@
 		vrLen = 413;
 		vrLoc = 0;
 	};
-	39CD8F05160E4398005F1EB0 /* PBXTextBookmark */ = {
+	39CD9041160FE921005F1EB0 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 31";
 		rLen = 0;
 		rLoc = 528;
 		rType = 0;
-		vrLen = 449;
-		vrLoc = 110;
+		vrLen = 418;
+		vrLoc = 21;
 	};
-	39CD8F20160E4429005F1EB0 /* PBXTextBookmark */ = {
+	39CD92D61612193A005F1EB0 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 31";
 		rLen = 0;
 		rLoc = 528;
 		rType = 0;
-		vrLen = 439;
-		vrLoc = 0;
+		vrLen = 418;
+		vrLoc = 21;
 	};
 	E4B69B4C0A3A1720003C02F2 /* Project object */ = {
 		activeBuildConfigurationName = Debug;
@@ -115,14 +115,14 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 370033677;
-			PBXWorkspaceStateSaveDate = 370033677;
+			PBXPerProjectTemplateStateSaveDate = 370284844;
+			PBXWorkspaceStateSaveDate = 370284844;
 		};
 		perUserProjectItems = {
 			39CD8F00160E437B005F1EB0 /* PBXTextBookmark */ = 39CD8F00160E437B005F1EB0 /* PBXTextBookmark */;
 			39CD8F03160E4398005F1EB0 /* PBXTextBookmark */ = 39CD8F03160E4398005F1EB0 /* PBXTextBookmark */;
-			39CD8F05160E4398005F1EB0 /* PBXTextBookmark */ = 39CD8F05160E4398005F1EB0 /* PBXTextBookmark */;
-			39CD8F20160E4429005F1EB0 /* PBXTextBookmark */ = 39CD8F20160E4429005F1EB0 /* PBXTextBookmark */;
+			39CD9041160FE921005F1EB0 /* PBXTextBookmark */ = 39CD9041160FE921005F1EB0 /* PBXTextBookmark */;
+			39CD92D61612193A005F1EB0 /* PBXTextBookmark */ = 39CD92D61612193A005F1EB0 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 39CD8B31160D2FAE005F1EB0 /* Source Control */;
 		userBuildSettings = {
@@ -143,9 +143,9 @@
 	};
 	E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1087, 1245}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1087, 1260}}";
 			sepNavSelRange = "{528, 0}";
-			sepNavVisRange = "{0, 439}";
+			sepNavVisRange = "{21, 418}";
 		};
 	};
 	E4B69E1F0A3A1BDC003C02F2 /* testApp.h */ = {

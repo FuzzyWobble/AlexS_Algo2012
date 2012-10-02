@@ -25,6 +25,11 @@ void rectangle::draw(int num, float dist) {
 		ofSetColor(155,255,155,200-(num*8));
 		ofRect(0+oscX,0+oscY,((25-num)/3.0)+1,55-num*2);
 		ofRect(15+oscX,0+oscY,5,1);
+		if(num==0){
+			for(float c=0;c<PI;c+=0.2){
+				ofCircle(35*cos(c-(PI/2.0))+10.0,35*sin(c-(PI/2.0)),3.0*sin(c));
+			}
+		}
 	ofPopMatrix();
 	
 	
