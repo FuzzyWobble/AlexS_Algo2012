@@ -16,6 +16,8 @@
 class firework{
 public: 
 	bool bExploding;
+	int numParticles;
+	float explodeVelocity;
 	vector <particle> particles;
 	vector <ofPoint> streak;
 	vector < vector < ofPoint > > particlePath;
@@ -23,12 +25,13 @@ public:
 	int streakLength;
 	int explodeHeight;
 	float explodeDuration, explodeStart;
+	ofColor color;
 	void init();
 	void drawStreak(); 
 	void updateStreak();
 	void explode();
 	void drawExplode(); 
-	void updateExplode();
+	bool updateExplode();
 };
 
 #endif 

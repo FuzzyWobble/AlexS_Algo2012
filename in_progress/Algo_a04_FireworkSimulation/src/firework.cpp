@@ -18,14 +18,17 @@ void firework::init(){
 	streakVY = ofRandom(5,8);
 	curveX = ofRandom(-0.05,0.05);
 	explodeHeight = ofRandom(0.15,0.45)*ofGetHeight();
-	explodeDuration = ofRandom(1.0,3.0);
+	explodeDuration = ofRandom(2.0,4.0);
+	color = ofColor(ofRandom(100,225),ofRandom(100,225),ofRandom(100,225));
+	numParticles = ofRandom(10,50);
+	explodeVelocity = numParticles/6.0;
 	
 }
 void firework::drawStreak(){
 	if(streak.size()>3){
 		ofFill();
-		ofSetColor(200,200,200);
-		ofCircle(streakX,streakY,5.0);
+		ofSetColor(color.r*ofRandom(1.0,1.5),color.g*ofRandom(1.0,1.5),color.b*ofRandom(1.0,1.5));
+		ofCircle(streakX,streakY,4.0);
 		int lng;
 		if(streak.size()>20){
 			lng = 20;
@@ -34,8 +37,8 @@ void firework::drawStreak(){
 			lng = streak.size();
 		}
 		for(int i=0;i<lng;i++){
-			ofSetColor(200,200,200,150*(1.0-(i/(float)lng)));
-			ofCircle(streak[streak.size()-(i+1)].x,streak[streak.size()-(i+1)].y,4.0*(1.0-(i/(float)lng)));
+			ofSetColor(color.r-30,color.g-30,color.b-30,150*(1.0-(i/(float)lng)));
+			ofCircle(streak[streak.size()-i-1].x,streak[streak.size()-i-1].y,3.0*(1.0-(i/(float)lng)));
 		}
 	}
 }
@@ -49,11 +52,11 @@ void firework::updateStreak(){
 }
 void firework::explode(){
 	explodeStart = ofGetElapsedTimef();
-	for (int i = 0; i < 50; i++){
+	for (int i = 0; i < numParticles; i++){
 		particle myParticle;
 		float angle = ofRandom(0,2.0*PI);
-		float velX = cos(angle)*5.0;
-		float velY = sin(angle)*5.0;
+		float velX = cos(angle)*explodeVelocity;
+		float velY = sin(angle)*explodeVelocity;
 		myParticle.setInitialCondition(streakX,streakY,velX,velY);
 		particles.push_back(myParticle);
 		
@@ -65,24 +68,29 @@ void firework::explode(){
 }
 void firework::drawExplode(){
 	if(ofGetElapsedTimef()-explodeStart < explodeDuration){
-		float alpha = 255 * (1.0-(ofGetElapsedTimef()-explodeStart)/explodeDuration);
-		ofSetColor(200,200,200,alpha);
+		ofSetColor(color.r*ofRandom(0.5,1.5),color.g*ofRandom(0.5,1.5),color.b*ofRandom(0.5,1.5),255 * (1.0-(ofGetElapsedTimef()-explodeStart)/explodeDuration));
 		for (int i = 0; i < particles.size(); i++){
 			particles[i].draw();
 		}
-		ofSetColor(100,100,100);
-		ofNoFill();
-		ofBeginShape();
-		for (int i = 0; i < particlePath.size(); i++){
-			for (int j = 0; j < particlePath[i].size(); j++){
-				ofCurveVertex(particlePath[i][j].x, particlePath[i][j].y);
-			}		
+		for (int i=0;i<particlePath.size();i++){
+			
+			if(particlePath[i].size()>5){
+				int lng;
+				if(particlePath[i].size()>30){
+					lng = 30;
+				}
+				else{
+					lng = particlePath[i].size();
+				}
+				for (int j=0;j<lng-1;j++){
+					ofSetColor(color.r*ofRandom(0.5,1.5),color.g*ofRandom(0.5,1.5),color.b*ofRandom(0.5,1.5), 255*(1.0-(j/(float)lng))*((1.0-(ofGetElapsedTimef()-explodeStart)/explodeDuration)) );
+					ofLine(particlePath[i][particlePath[i].size()-j-1].x, particlePath[i][particlePath[i].size()-j-1].y,particlePath[i][particlePath[i].size()-j-2].x, particlePath[i][particlePath[i].size()-j-2].y);
+				}
+			}
 		}
-		ofEndShape();
-		ofFill();
 	}
 }
-void firework::updateExplode(){
+bool firework::updateExplode(){
 	if(ofGetElapsedTimef()-explodeStart < explodeDuration){
 		for (int i = 0; i < particles.size(); i++){
 			particles[i].resetForce();
@@ -93,6 +101,10 @@ void firework::updateExplode(){
 			st.set(particles[i].pos.x,particles[i].pos.y);
 			particlePath[i].push_back(st);
 		}
+		return 1;
+	}
+	else{
+		return 0;
 	}
 	
 }

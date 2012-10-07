@@ -23,7 +23,13 @@ void testApp::update(){
 		}
 		
 		if(fireworks[i].bExploding){
-			fireworks[i].updateExplode();
+			bool alive = fireworks[i].updateExplode();
+			if(alive){
+				
+			}
+			else{
+				fireworks.erase(fireworks.begin()+i,fireworks.begin()+i+1);
+			}
 		}
 		else{ //streak
 			fireworks[i].updateStreak();

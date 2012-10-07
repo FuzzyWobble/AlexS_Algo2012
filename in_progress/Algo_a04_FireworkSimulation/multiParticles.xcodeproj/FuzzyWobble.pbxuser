@@ -3,7 +3,7 @@
 	39B5E5411621EE8A00D6F7A8 /* particle.cpp */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {985, 795}}";
-			sepNavSelRange = "{1306, 5}";
+			sepNavSelRange = "{1321, 0}";
 			sepNavVisRange = "{537, 790}";
 		};
 	};
@@ -62,16 +62,16 @@
 	};
 	39B5E58B1621EF9900D6F7A8 /* firework.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {985, 525}}";
-			sepNavSelRange = "{341, 0}";
-			sepNavVisRange = "{18, 601}";
+			sepNavIntBoundsRect = "{{0, 0}, {985, 570}}";
+			sepNavSelRange = "{308, 0}";
+			sepNavVisRange = "{136, 551}";
 		};
 	};
 	39B5E58C1621EF9900D6F7A8 /* firework.cpp */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {985, 1500}}";
-			sepNavSelRange = "{1544, 0}";
-			sepNavVisRange = "{1155, 861}";
+			sepNavIntBoundsRect = "{{0, 0}, {985, 1740}}";
+			sepNavSelRange = "{541, 0}";
+			sepNavVisRange = "{76, 784}";
 		};
 	};
 	39B5E59B1621FE8500D6F7A8 /* XCBuildMessageTextBookmark */ = {
@@ -80,7 +80,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 53;
+		rLoc = 56;
 		rType = 1;
 	};
 	39B5E59C1621FE8500D6F7A8 /* PBXTextBookmark */ = {
@@ -88,7 +88,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 30";
 		rLen = 0;
-		rLoc = 1155;
+		rLoc = 1391;
 		rType = 0;
 		vrLen = 334;
 		vrLoc = 445;
@@ -108,7 +108,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 22";
 		rLen = 0;
-		rLoc = 619;
+		rLoc = 734;
 		rType = 0;
 		vrLen = 491;
 		vrLoc = 140;
@@ -149,7 +149,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 53;
+		rLoc = 56;
 		rType = 1;
 	};
 	39B5E5B11621FEC500D6F7A8 /* PBXTextBookmark */ = {
@@ -157,7 +157,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 30";
 		rLen = 0;
-		rLoc = 1174;
+		rLoc = 1410;
 		rType = 0;
 		vrLen = 671;
 		vrLoc = 142;
@@ -187,7 +187,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 22";
 		rLen = 0;
-		rLoc = 619;
+		rLoc = 734;
 		rType = 0;
 		vrLen = 489;
 		vrLoc = 140;
@@ -197,7 +197,7 @@
 		fRef = 39B5E58B1621EF9900D6F7A8 /* firework.h */;
 		name = "firework.h: 20";
 		rLen = 0;
-		rLoc = 418;
+		rLoc = 461;
 		rType = 0;
 		vrLen = 492;
 		vrLoc = 0;
@@ -207,7 +207,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 18";
 		rLen = 0;
-		rLoc = 477;
+		rLoc = 620;
 		rType = 0;
 		vrLen = 650;
 		vrLoc = 135;
@@ -247,7 +247,7 @@
 		fRef = 39B5E58B1621EF9900D6F7A8 /* firework.h */;
 		name = "firework.h: 20";
 		rLen = 0;
-		rLoc = 320;
+		rLoc = 363;
 		rType = 0;
 		vrLen = 518;
 		vrLoc = 0;
@@ -257,7 +257,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 28";
 		rLen = 0;
-		rLoc = 1035;
+		rLoc = 1261;
 		rType = 0;
 		vrLen = 748;
 		vrLoc = 166;
@@ -267,7 +267,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 29";
 		rLen = 0;
-		rLoc = 1035;
+		rLoc = 1261;
 		rType = 0;
 		vrLen = 724;
 		vrLoc = 166;
@@ -277,7 +277,7 @@
 		fRef = 39B5E58B1621EF9900D6F7A8 /* firework.h */;
 		name = "firework.h: 20";
 		rLen = 0;
-		rLoc = 320;
+		rLoc = 363;
 		rType = 0;
 		vrLen = 518;
 		vrLoc = 0;
@@ -287,7 +287,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 22";
 		rLen = 0;
-		rLoc = 619;
+		rLoc = 734;
 		rType = 0;
 		vrLen = 515;
 		vrLoc = 114;
@@ -307,7 +307,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 23";
 		rLen = 0;
-		rLoc = 875;
+		rLoc = 1101;
 		rType = 0;
 		vrLen = 780;
 		vrLoc = 368;
@@ -317,7 +317,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 30";
 		rLen = 0;
-		rLoc = 1033;
+		rLoc = 1259;
 		rType = 0;
 		vrLen = 703;
 		vrLoc = 189;
@@ -327,7 +327,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 24";
 		rLen = 0;
-		rLoc = 690;
+		rLoc = 899;
 		rType = 0;
 		vrLen = 704;
 		vrLoc = 253;
@@ -337,7 +337,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 24";
 		rLen = 0;
-		rLoc = 690;
+		rLoc = 899;
 		rType = 0;
 		vrLen = 599;
 		vrLoc = 39;
@@ -377,7 +377,7 @@
 		fRef = 39B5E58B1621EF9900D6F7A8 /* firework.h */;
 		name = "firework.h: 20";
 		rLen = 0;
-		rLoc = 320;
+		rLoc = 363;
 		rType = 0;
 		vrLen = 518;
 		vrLoc = 0;
@@ -387,7 +387,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 24";
 		rLen = 0;
-		rLoc = 690;
+		rLoc = 899;
 		rType = 0;
 		vrLen = 696;
 		vrLoc = 210;
@@ -397,7 +397,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 34";
 		rLen = 0;
-		rLoc = 1012;
+		rLoc = 1238;
 		rType = 0;
 		vrLen = 644;
 		vrLoc = 210;
@@ -407,7 +407,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 23";
 		rLen = 0;
-		rLoc = 690;
+		rLoc = 899;
 		rType = 0;
 		vrLen = 643;
 		vrLoc = 210;
@@ -417,7 +417,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 25";
 		rLen = 0;
-		rLoc = 690;
+		rLoc = 899;
 		rType = 0;
 		vrLen = 651;
 		vrLoc = 210;
@@ -427,7 +427,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 24";
 		rLen = 0;
-		rLoc = 690;
+		rLoc = 899;
 		rType = 0;
 		vrLen = 670;
 		vrLoc = 210;
@@ -437,7 +437,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 24";
 		rLen = 0;
-		rLoc = 690;
+		rLoc = 899;
 		rType = 0;
 		vrLen = 676;
 		vrLoc = 210;
@@ -447,7 +447,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 28";
 		rLen = 0;
-		rLoc = 875;
+		rLoc = 1101;
 		rType = 0;
 		vrLen = 645;
 		vrLoc = 210;
@@ -457,7 +457,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 25";
 		rLen = 0;
-		rLoc = 690;
+		rLoc = 899;
 		rType = 0;
 		vrLen = 649;
 		vrLoc = 210;
@@ -467,7 +467,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 25";
 		rLen = 0;
-		rLoc = 690;
+		rLoc = 899;
 		rType = 0;
 		vrLen = 651;
 		vrLoc = 210;
@@ -477,7 +477,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 25";
 		rLen = 0;
-		rLoc = 690;
+		rLoc = 899;
 		rType = 0;
 		vrLen = 651;
 		vrLoc = 210;
@@ -487,7 +487,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 27";
 		rLen = 0;
-		rLoc = 690;
+		rLoc = 899;
 		rType = 0;
 		vrLen = 627;
 		vrLoc = 210;
@@ -519,7 +519,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 27";
 		rLen = 0;
-		rLoc = 690;
+		rLoc = 899;
 		rType = 0;
 		vrLen = 690;
 		vrLoc = 210;
@@ -529,7 +529,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 24";
 		rLen = 0;
-		rLoc = 690;
+		rLoc = 899;
 		rType = 0;
 		vrLen = 630;
 		vrLoc = 210;
@@ -539,7 +539,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 24";
 		rLen = 0;
-		rLoc = 589;
+		rLoc = 798;
 		rType = 0;
 		vrLen = 628;
 		vrLoc = 210;
@@ -559,7 +559,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 23";
 		rLen = 0;
-		rLoc = 690;
+		rLoc = 899;
 		rType = 0;
 		vrLen = 627;
 		vrLoc = 210;
@@ -569,7 +569,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 28";
 		rLen = 0;
-		rLoc = 690;
+		rLoc = 899;
 		rType = 0;
 		vrLen = 623;
 		vrLoc = 210;
@@ -579,7 +579,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 23";
 		rLen = 0;
-		rLoc = 530;
+		rLoc = 673;
 		rType = 0;
 		vrLen = 623;
 		vrLoc = 210;
@@ -589,7 +589,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 31";
 		rLen = 0;
-		rLoc = 690;
+		rLoc = 899;
 		rType = 0;
 		vrLen = 631;
 		vrLoc = 210;
@@ -599,7 +599,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 30";
 		rLen = 0;
-		rLoc = 690;
+		rLoc = 899;
 		rType = 0;
 		vrLen = 616;
 		vrLoc = 210;
@@ -609,7 +609,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 31";
 		rLen = 0;
-		rLoc = 690;
+		rLoc = 899;
 		rType = 0;
 		vrLen = 629;
 		vrLoc = 210;
@@ -619,7 +619,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 31";
 		rLen = 0;
-		rLoc = 690;
+		rLoc = 899;
 		rType = 0;
 		vrLen = 655;
 		vrLoc = 210;
@@ -629,7 +629,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 32";
 		rLen = 0;
-		rLoc = 690;
+		rLoc = 899;
 		rType = 0;
 		vrLen = 640;
 		vrLoc = 210;
@@ -639,7 +639,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 31";
 		rLen = 0;
-		rLoc = 690;
+		rLoc = 899;
 		rType = 0;
 		vrLen = 640;
 		vrLoc = 210;
@@ -649,7 +649,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 23";
 		rLen = 0;
-		rLoc = 530;
+		rLoc = 673;
 		rType = 0;
 		vrLen = 640;
 		vrLoc = 210;
@@ -659,7 +659,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 34";
 		rLen = 0;
-		rLoc = 690;
+		rLoc = 899;
 		rType = 0;
 		vrLen = 752;
 		vrLoc = 210;
@@ -669,7 +669,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 34";
 		rLen = 0;
-		rLoc = 690;
+		rLoc = 899;
 		rType = 0;
 		vrLen = 776;
 		vrLoc = 210;
@@ -679,7 +679,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 33";
 		rLen = 0;
-		rLoc = 690;
+		rLoc = 899;
 		rType = 0;
 		vrLen = 750;
 		vrLoc = 210;
@@ -689,7 +689,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 32";
 		rLen = 0;
-		rLoc = 690;
+		rLoc = 899;
 		rType = 0;
 		vrLen = 750;
 		vrLoc = 210;
@@ -699,7 +699,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 35";
 		rLen = 0;
-		rLoc = 875;
+		rLoc = 1101;
 		rType = 0;
 		vrLen = 750;
 		vrLoc = 210;
@@ -708,8 +708,8 @@
 		isa = PBXTextBookmark;
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 28";
-		rLen = 183;
-		rLoc = 690;
+		rLen = 200;
+		rLoc = 899;
 		rType = 0;
 		vrLen = 766;
 		vrLoc = 210;
@@ -719,7 +719,7 @@
 		fRef = 39B5E58B1621EF9900D6F7A8 /* firework.h */;
 		name = "firework.h: 22";
 		rLen = 0;
-		rLoc = 425;
+		rLoc = 468;
 		rType = 0;
 		vrLen = 529;
 		vrLoc = 0;
@@ -749,7 +749,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 20";
 		rLen = 0;
-		rLoc = 475;
+		rLoc = 618;
 		rType = 0;
 		vrLen = 600;
 		vrLoc = 0;
@@ -759,7 +759,7 @@
 		fRef = 39B5E58B1621EF9900D6F7A8 /* firework.h */;
 		name = "firework.h: 23";
 		rLen = 0;
-		rLoc = 496;
+		rLoc = 555;
 		rType = 0;
 		vrLen = 548;
 		vrLoc = 0;
@@ -809,7 +809,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 47";
 		rLen = 0;
-		rLoc = 1061;
+		rLoc = 1287;
 		rType = 0;
 		vrLen = 758;
 		vrLoc = 908;
@@ -819,7 +819,7 @@
 		fRef = 39B5E58B1621EF9900D6F7A8 /* firework.h */;
 		name = "firework.h: 23";
 		rLen = 0;
-		rLoc = 496;
+		rLoc = 555;
 		rType = 0;
 		vrLen = 548;
 		vrLoc = 0;
@@ -829,7 +829,7 @@
 		fRef = 39B5E58B1621EF9900D6F7A8 /* firework.h */;
 		name = "firework.h: 27";
 		rLen = 0;
-		rLoc = 568;
+		rLoc = 627;
 		rType = 0;
 		vrLen = 533;
 		vrLoc = 0;
@@ -839,7 +839,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 47";
 		rLen = 0;
-		rLoc = 1061;
+		rLoc = 1287;
 		rType = 0;
 		vrLen = 755;
 		vrLoc = 908;
@@ -849,7 +849,7 @@
 		fRef = 39B5E58B1621EF9900D6F7A8 /* firework.h */;
 		name = "firework.h: 27";
 		rLen = 0;
-		rLoc = 568;
+		rLoc = 627;
 		rType = 0;
 		vrLen = 536;
 		vrLoc = 0;
@@ -909,7 +909,7 @@
 		fRef = 39B5E58B1621EF9900D6F7A8 /* firework.h */;
 		name = "firework.h: 27";
 		rLen = 0;
-		rLoc = 568;
+		rLoc = 627;
 		rType = 0;
 		vrLen = 542;
 		vrLoc = 3;
@@ -919,7 +919,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 47";
 		rLen = 0;
-		rLoc = 1061;
+		rLoc = 1287;
 		rType = 0;
 		vrLen = 755;
 		vrLoc = 908;
@@ -939,7 +939,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 28";
 		rLen = 0;
-		rLoc = 690;
+		rLoc = 899;
 		rType = 0;
 		vrLen = 706;
 		vrLoc = 42;
@@ -959,7 +959,7 @@
 		fRef = 39B5E58B1621EF9900D6F7A8 /* firework.h */;
 		name = "firework.h: 24";
 		rLen = 5;
-		rLoc = 490;
+		rLoc = 533;
 		rType = 0;
 		vrLen = 546;
 		vrLoc = 37;
@@ -969,7 +969,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 60";
 		rLen = 0;
-		rLoc = 1564;
+		rLoc = 1822;
 		rType = 0;
 		vrLen = 868;
 		vrLoc = 946;
@@ -979,7 +979,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 60";
 		rLen = 0;
-		rLoc = 1564;
+		rLoc = 1822;
 		rType = 0;
 		vrLen = 791;
 		vrLoc = 1059;
@@ -999,7 +999,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 50";
 		rLen = 0;
-		rLoc = 1123;
+		rLoc = 1348;
 		rType = 0;
 		vrLen = 783;
 		vrLoc = 480;
@@ -1009,7 +1009,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 69";
 		rLen = 0;
-		rLoc = 2108;
+		rLoc = 2776;
 		rType = 0;
 		vrLen = 764;
 		vrLoc = 1085;
@@ -1019,7 +1019,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 69";
 		rLen = 0;
-		rLoc = 2108;
+		rLoc = 2776;
 		rType = 0;
 		vrLen = 764;
 		vrLoc = 1085;
@@ -1059,7 +1059,7 @@
 		fRef = 39B5E58B1621EF9900D6F7A8 /* firework.h */;
 		name = "firework.h: 24";
 		rLen = 5;
-		rLoc = 490;
+		rLoc = 533;
 		rType = 0;
 		vrLen = 543;
 		vrLoc = 40;
@@ -1069,7 +1069,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 69";
 		rLen = 0;
-		rLoc = 2108;
+		rLoc = 2776;
 		rType = 0;
 		vrLen = 790;
 		vrLoc = 1059;
@@ -1079,7 +1079,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 69";
 		rLen = 0;
-		rLoc = 2108;
+		rLoc = 2776;
 		rType = 0;
 		vrLen = 788;
 		vrLoc = 1059;
@@ -1089,7 +1089,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 28";
 		rLen = 0;
-		rLoc = 690;
+		rLoc = 899;
 		rType = 0;
 		vrLen = 772;
 		vrLoc = 299;
@@ -1099,7 +1099,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 39";
 		rLen = 0;
-		rLoc = 868;
+		rLoc = 1094;
 		rType = 0;
 		vrLen = 637;
 		vrLoc = 299;
@@ -1109,7 +1109,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 38";
 		rLen = 0;
-		rLoc = 769;
+		rLoc = 999;
 		rType = 0;
 		vrLen = 653;
 		vrLoc = 299;
@@ -1139,7 +1139,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 37";
 		rLen = 0;
-		rLoc = 769;
+		rLoc = 999;
 		rType = 0;
 		vrLen = 648;
 		vrLoc = 299;
@@ -1149,7 +1149,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 37";
 		rLen = 0;
-		rLoc = 767;
+		rLoc = 997;
 		rType = 0;
 		vrLen = 620;
 		vrLoc = 299;
@@ -1159,7 +1159,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 37";
 		rLen = 0;
-		rLoc = 762;
+		rLoc = 992;
 		rType = 0;
 		vrLen = 642;
 		vrLoc = 299;
@@ -1169,7 +1169,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 38";
 		rLen = 0;
-		rLoc = 866;
+		rLoc = 1092;
 		rType = 0;
 		vrLen = 663;
 		vrLoc = 299;
@@ -1179,7 +1179,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 38";
 		rLen = 0;
-		rLoc = 866;
+		rLoc = 1092;
 		rType = 0;
 		vrLen = 609;
 		vrLoc = 76;
@@ -1189,7 +1189,7 @@
 		fRef = 39B5E58B1621EF9900D6F7A8 /* firework.h */;
 		name = "firework.h: 24";
 		rLen = 5;
-		rLoc = 490;
+		rLoc = 533;
 		rType = 0;
 		vrLen = 546;
 		vrLoc = 37;
@@ -1239,7 +1239,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 38";
 		rLen = 0;
-		rLoc = 866;
+		rLoc = 1092;
 		rType = 0;
 		vrLen = 609;
 		vrLoc = 76;
@@ -1249,7 +1249,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 63";
 		rLen = 0;
-		rLoc = 1564;
+		rLoc = 1822;
 		rType = 0;
 		vrLen = 611;
 		vrLoc = 76;
@@ -1259,7 +1259,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 38";
 		rLen = 0;
-		rLoc = 843;
+		rLoc = 1069;
 		rType = 0;
 		vrLen = 588;
 		vrLoc = 476;
@@ -1269,7 +1269,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 37";
 		rLen = 0;
-		rLoc = 745;
+		rLoc = 975;
 		rType = 0;
 		vrLen = 588;
 		vrLoc = 476;
@@ -1319,7 +1319,7 @@
 		fRef = 39B5E58B1621EF9900D6F7A8 /* firework.h */;
 		name = "firework.h: 21";
 		rLen = 0;
-		rLoc = 366;
+		rLoc = 409;
 		rType = 0;
 		vrLen = 589;
 		vrLoc = 18;
@@ -1329,7 +1329,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 79";
 		rLen = 0;
-		rLoc = 2108;
+		rLoc = 2776;
 		rType = 0;
 		vrLen = 797;
 		vrLoc = 1155;
@@ -1339,7 +1339,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 79";
 		rLen = 0;
-		rLoc = 2108;
+		rLoc = 2776;
 		rType = 0;
 		vrLen = 813;
 		vrLoc = 1132;
@@ -1359,7 +1359,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 79";
 		rLen = 0;
-		rLoc = 2108;
+		rLoc = 2776;
 		rType = 0;
 		vrLen = 852;
 		vrLoc = 1101;
@@ -1369,7 +1369,7 @@
 		fRef = 39B5E58B1621EF9900D6F7A8 /* firework.h */;
 		name = "firework.h: 20";
 		rLen = 0;
-		rLoc = 312;
+		rLoc = 355;
 		rType = 0;
 		vrLen = 584;
 		vrLoc = 3;
@@ -1379,7 +1379,7 @@
 		fRef = 39B5E58B1621EF9900D6F7A8 /* firework.h */;
 		name = "firework.h: 21";
 		rLen = 0;
-		rLoc = 351;
+		rLoc = 394;
 		rType = 0;
 		vrLen = 580;
 		vrLoc = 40;
@@ -1405,7 +1405,7 @@
 		fRef = 39B5E58B1621EF9900D6F7A8 /* firework.h */;
 		name = "firework.h: 21";
 		rLen = 0;
-		rLoc = 341;
+		rLoc = 384;
 		rType = 0;
 		vrLen = 583;
 		vrLoc = 37;
@@ -1415,7 +1415,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 79";
 		rLen = 0;
-		rLoc = 2108;
+		rLoc = 2776;
 		rType = 0;
 		vrLen = 798;
 		vrLoc = 1155;
@@ -1425,7 +1425,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 59";
 		rLen = 0;
-		rLoc = 1396;
+		rLoc = 1656;
 		rType = 0;
 		vrLen = 918;
 		vrLoc = 1038;
@@ -1445,7 +1445,7 @@
 		fRef = 39B5E58B1621EF9900D6F7A8 /* firework.h */;
 		name = "firework.h: 21";
 		rLen = 0;
-		rLoc = 341;
+		rLoc = 384;
 		rType = 0;
 		vrLen = 601;
 		vrLoc = 18;
@@ -1455,7 +1455,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 59";
 		rLen = 0;
-		rLoc = 1377;
+		rLoc = 1637;
 		rType = 0;
 		vrLen = 918;
 		vrLoc = 1038;
@@ -1465,7 +1465,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 59";
 		rLen = 0;
-		rLoc = 1392;
+		rLoc = 1652;
 		rType = 0;
 		vrLen = 927;
 		vrLoc = 1038;
@@ -1475,7 +1475,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 59";
 		rLen = 0;
-		rLoc = 1384;
+		rLoc = 1644;
 		rType = 0;
 		vrLen = 871;
 		vrLoc = 1038;
@@ -1485,7 +1485,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 72";
 		rLen = 0;
-		rLoc = 1564;
+		rLoc = 1822;
 		rType = 0;
 		vrLen = 784;
 		vrLoc = 1101;
@@ -1495,7 +1495,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 77";
 		rLen = 0;
-		rLoc = 1564;
+		rLoc = 1822;
 		rType = 0;
 		vrLen = 827;
 		vrLoc = 1222;
@@ -1505,7 +1505,7 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 87";
 		rLen = 283;
-		rLoc = 2107;
+		rLoc = 2775;
 		rType = 0;
 		vrLen = 888;
 		vrLoc = 1506;
@@ -1515,10 +1515,670 @@
 		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
 		name = "firework.cpp: 67";
 		rLen = 0;
-		rLoc = 1544;
+		rLoc = 1804;
 		rType = 0;
 		vrLen = 861;
 		vrLoc = 1155;
+	};
+	39B5E7221622265E00D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
+		name = "firework.cpp: 85";
+		rLen = 0;
+		rLoc = 2136;
+		rType = 0;
+		vrLen = 780;
+		vrLoc = 1471;
+	};
+	39B5E7261622269600D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
+		name = "firework.cpp: 87";
+		rLen = 0;
+		rLoc = 2136;
+		rType = 0;
+		vrLen = 727;
+		vrLoc = 1438;
+	};
+	39B5E72A162226B000D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
+		name = "firework.cpp: 89";
+		rLen = 0;
+		rLoc = 2676;
+		rType = 0;
+		vrLen = 718;
+		vrLoc = 1438;
+	};
+	39B5E72C162226F200D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
+		name = "firework.cpp: 38";
+		rLen = 0;
+		rLoc = 1064;
+		rType = 0;
+		vrLen = 758;
+		vrLoc = 1746;
+	};
+	39B5E72F1622271A00D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
+		name = "firework.cpp: 86";
+		rLen = 0;
+		rLoc = 2136;
+		rType = 0;
+		vrLen = 685;
+		vrLoc = 1472;
+	};
+	39B5E7331622273B00D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
+		name = "firework.cpp: 79";
+		rLen = 0;
+		rLoc = 2136;
+		rType = 0;
+		vrLen = 685;
+		vrLoc = 1472;
+	};
+	39B5E7371622274A00D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
+		name = "firework.cpp: 80";
+		rLen = 0;
+		rLoc = 2136;
+		rType = 0;
+		vrLen = 685;
+		vrLoc = 1472;
+	};
+	39B5E73D1622280800D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
+		name = "firework.cpp: 87";
+		rLen = 0;
+		rLoc = 2136;
+		rType = 0;
+		vrLen = 737;
+		vrLoc = 1472;
+	};
+	39B5E7411622282000D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
+		name = "firework.cpp: 87";
+		rLen = 0;
+		rLoc = 2136;
+		rType = 0;
+		vrLen = 737;
+		vrLoc = 1472;
+	};
+	39B5E7451622284900D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
+		name = "firework.cpp: 87";
+		rLen = 0;
+		rLoc = 2136;
+		rType = 0;
+		vrLen = 708;
+		vrLoc = 1773;
+	};
+	39B5E7491622286300D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
+		name = "firework.cpp: 87";
+		rLen = 0;
+		rLoc = 2136;
+		rType = 0;
+		vrLen = 712;
+		vrLoc = 1773;
+	};
+	39B5E74D1622287000D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
+		name = "firework.cpp: 87";
+		rLen = 0;
+		rLoc = 2136;
+		rType = 0;
+		vrLen = 687;
+		vrLoc = 1773;
+	};
+	39B5E74F1622288F00D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
+		name = "firework.cpp: 87";
+		rLen = 0;
+		rLoc = 2136;
+		rType = 0;
+		vrLen = 727;
+		vrLoc = 1773;
+	};
+	39B5E7521622294900D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
+		name = "firework.cpp: 88";
+		rLen = 0;
+		rLoc = 2136;
+		rType = 0;
+		vrLen = 773;
+		vrLoc = 1773;
+	};
+	39B5E7561622295E00D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
+		name = "firework.cpp: 88";
+		rLen = 0;
+		rLoc = 2136;
+		rType = 0;
+		vrLen = 770;
+		vrLoc = 1773;
+	};
+	39B5E75E16222A6900D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
+		name = "firework.cpp: 90";
+		rLen = 0;
+		rLoc = 2136;
+		rType = 0;
+		vrLen = 922;
+		vrLoc = 1773;
+	};
+	39B5E76216222A7B00D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
+		name = "firework.cpp: 87";
+		rLen = 0;
+		rLoc = 2136;
+		rType = 0;
+		vrLen = 918;
+		vrLoc = 1773;
+	};
+	39B5E76616222A9400D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
+		name = "firework.cpp: 86";
+		rLen = 0;
+		rLoc = 2136;
+		rType = 0;
+		vrLen = 920;
+		vrLoc = 1773;
+	};
+	39B5E76A16222BB800D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39B5E58B1621EF9900D6F7A8 /* firework.h */;
+		name = "firework.h: 26";
+		rLen = 0;
+		rLoc = 555;
+		rType = 0;
+		vrLen = 599;
+		vrLoc = 37;
+	};
+	39B5E76B16222BB800D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
+		name = "firework.cpp: 22";
+		rLen = 0;
+		rLoc = 477;
+		rType = 0;
+		vrLen = 616;
+		vrLoc = 0;
+	};
+	39B5E76C16222BB800D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
+		name = "firework.cpp: 22";
+		rLen = 0;
+		rLoc = 485;
+		rType = 0;
+		vrLen = 624;
+		vrLoc = 0;
+	};
+	39B5E76F16222C1300D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
+		name = "firework.cpp: 88";
+		rLen = 0;
+		rLoc = 2136;
+		rType = 0;
+		vrLen = 989;
+		vrLoc = 1572;
+	};
+	39B5E77516222CAA00D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
+		name = "firework.cpp: 70";
+		rLen = 0;
+		rLoc = 1843;
+		rType = 0;
+		vrLen = 845;
+		vrLoc = 1100;
+	};
+	39B5E77B16222D4C00D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
+		name = "firework.cpp: 88";
+		rLen = 0;
+		rLoc = 2136;
+		rType = 0;
+		vrLen = 1087;
+		vrLoc = 1558;
+	};
+	39B5E77F16222D6A00D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
+		name = "firework.cpp: 21";
+		rLen = 0;
+		rLoc = 471;
+		rType = 0;
+		vrLen = 681;
+		vrLoc = 3;
+	};
+	39B5E78316222D7900D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
+		name = "firework.cpp: 21";
+		rLen = 0;
+		rLoc = 471;
+		rType = 0;
+		vrLen = 681;
+		vrLoc = 3;
+	};
+	39B5E78716222D9E00D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
+		name = "firework.cpp: 88";
+		rLen = 0;
+		rLoc = 2136;
+		rType = 0;
+		vrLen = 921;
+		vrLoc = 1558;
+	};
+	39B5E78B16222DD700D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39B5E5411621EE8A00D6F7A8 /* particle.cpp */;
+		name = "particle.cpp: 50";
+		rLen = 0;
+		rLoc = 1321;
+		rType = 0;
+		vrLen = 790;
+		vrLoc = 537;
+	};
+	39B5E78C16222DD700D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
+		name = "firework.cpp: 88";
+		rLen = 0;
+		rLoc = 2136;
+		rType = 0;
+		vrLen = 921;
+		vrLoc = 1561;
+	};
+	39B5E78D16222DD700D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
+		name = "firework.cpp: 88";
+		rLen = 0;
+		rLoc = 2136;
+		rType = 0;
+		vrLen = 918;
+		vrLoc = 1561;
+	};
+	39B5E79116222DED00D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
+		name = "firework.cpp: 39";
+		rLen = 0;
+		rLoc = 1069;
+		rType = 0;
+		vrLen = 605;
+		vrLoc = 546;
+	};
+	39B5E79516222E2300D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
+		name = "firework.cpp: 88";
+		rLen = 0;
+		rLoc = 2136;
+		rType = 0;
+		vrLen = 887;
+		vrLoc = 1885;
+	};
+	39B5E79916222F8200D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
+		name = "firework.cpp: 88";
+		rLen = 0;
+		rLoc = 2136;
+		rType = 0;
+		vrLen = 923;
+		vrLoc = 1885;
+	};
+	39B5E79F16222FB800D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
+		name = "firework.cpp: 87";
+		rLen = 0;
+		rLoc = 2136;
+		rType = 0;
+		vrLen = 952;
+		vrLoc = 1885;
+	};
+	39B5E7A316222FCA00D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
+		name = "firework.cpp: 87";
+		rLen = 0;
+		rLoc = 2136;
+		rType = 0;
+		vrLen = 952;
+		vrLoc = 1885;
+	};
+	39B5E7A716222FE600D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
+		name = "firework.cpp: 73";
+		rLen = 0;
+		rLoc = 2052;
+		rType = 0;
+		vrLen = 989;
+		vrLoc = 1558;
+	};
+	39B5E7AB1622300200D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
+		name = "firework.cpp: 84";
+		rLen = 0;
+		rLoc = 2136;
+		rType = 0;
+		vrLen = 1050;
+		vrLoc = 1558;
+	};
+	39B5E7AF1622305C00D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
+		name = "firework.cpp: 68";
+		rLen = 0;
+		rLoc = 1822;
+		rType = 0;
+		vrLen = 1116;
+		vrLoc = 1558;
+	};
+	39B5E7B3162230C200D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
+		name = "firework.cpp: 28";
+		rLen = 0;
+		rLoc = 776;
+		rType = 0;
+		vrLen = 786;
+		vrLoc = 354;
+	};
+	39B5E7B7162230D800D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
+		name = "firework.cpp: 28";
+		rLen = 0;
+		rLoc = 771;
+		rType = 0;
+		vrLen = 786;
+		vrLoc = 354;
+	};
+	39B5E7BB1622321A00D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39B5E58B1621EF9900D6F7A8 /* firework.h */;
+		name = "firework.h: 29";
+		rLen = 0;
+		rLoc = 596;
+		rType = 0;
+		vrLen = 598;
+		vrLoc = 37;
+	};
+	39B5E7BC1622321A00D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
+		name = "firework.cpp: 89";
+		rLen = 0;
+		rLoc = 2683;
+		rType = 0;
+		vrLen = 892;
+		vrLoc = 1026;
+	};
+	39B5E7BD1622321A00D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
+		name = "firework.cpp: 105";
+		rLen = 0;
+		rLoc = 3080;
+		rType = 0;
+		vrLen = 901;
+		vrLoc = 2095;
+	};
+	39B5E7BE1622328100D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
+		name = "firework.cpp: 91";
+		rLen = 0;
+		rLoc = 2690;
+		rType = 0;
+		vrLen = 904;
+		vrLoc = 2089;
+	};
+	39B5E7BF1622328100D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39B5E58B1621EF9900D6F7A8 /* firework.h */;
+		name = "firework.h: 29";
+		rLen = 0;
+		rLoc = 596;
+		rType = 0;
+		vrLen = 598;
+		vrLoc = 37;
+	};
+	39B5E7C01622328100D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
+		name = "testApp.cpp: 32";
+		rLen = 0;
+		rLoc = 690;
+		rType = 0;
+		vrLen = 648;
+		vrLoc = 210;
+	};
+	39B5E7C11622328100D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
+		name = "testApp.cpp: 31";
+		rLen = 0;
+		rLoc = 685;
+		rType = 0;
+		vrLen = 648;
+		vrLoc = 210;
+	};
+	39B5E7C6162232E000D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39B5E58B1621EF9900D6F7A8 /* firework.h */;
+		name = "firework.h: 32";
+		rLen = 0;
+		rLoc = 657;
+		rType = 0;
+		vrLen = 598;
+		vrLoc = 37;
+	};
+	39B5E7C7162232E000D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
+		name = "firework.cpp: 91";
+		rLen = 0;
+		rLoc = 2690;
+		rType = 0;
+		vrLen = 898;
+		vrLoc = 2095;
+	};
+	39B5E7C8162232E000D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
+		name = "testApp.cpp: 31";
+		rLen = 0;
+		rLoc = 685;
+		rType = 0;
+		vrLen = 693;
+		vrLoc = 210;
+	};
+	39B5E7C9162232E000D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
+		name = "testApp.cpp: 31";
+		rLen = 0;
+		rLoc = 651;
+		rType = 0;
+		vrLen = 693;
+		vrLoc = 210;
+	};
+	39B5E7CC162232FE00D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
+		name = "testApp.cpp: 31";
+		rLen = 0;
+		rLoc = 683;
+		rType = 0;
+		vrLen = 676;
+		vrLoc = 210;
+	};
+	39B5E7D01622335100D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
+		name = "testApp.cpp: 31";
+		rLen = 0;
+		rLoc = 683;
+		rType = 0;
+		vrLen = 622;
+		vrLoc = 0;
+	};
+	39B5E7D11622335100D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
+		name = "testApp.h: 30";
+		rLen = 0;
+		rLoc = 493;
+		rType = 0;
+		vrLen = 467;
+		vrLoc = 37;
+	};
+	39B5E7D21622335100D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39B5E58B1621EF9900D6F7A8 /* firework.h */;
+		name = "firework.h: 19";
+		rLen = 0;
+		rLoc = 308;
+		rType = 0;
+		vrLen = 530;
+		vrLoc = 133;
+	};
+	39B5E7D31622335100D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
+		name = "firework.cpp: 91";
+		rLen = 0;
+		rLoc = 2690;
+		rType = 0;
+		vrLen = 802;
+		vrLoc = 827;
+	};
+	39B5E7D41622335100D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
+		name = "firework.cpp: 23";
+		rLen = 0;
+		rLoc = 618;
+		rType = 0;
+		vrLen = 739;
+		vrLoc = 0;
+	};
+	39B5E7D8162233A800D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39B5E58B1621EF9900D6F7A8 /* firework.h */;
+		name = "firework.h: 20";
+		rLen = 0;
+		rLoc = 308;
+		rType = 0;
+		vrLen = 551;
+		vrLoc = 136;
+	};
+	39B5E7D9162233A800D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
+		name = "firework.cpp: 23";
+		rLen = 0;
+		rLoc = 618;
+		rType = 0;
+		vrLen = 813;
+		vrLoc = 386;
+	};
+	39B5E7DA162233A800D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
+		name = "firework.cpp: 59";
+		rLen = 0;
+		rLoc = 1511;
+		rType = 0;
+		vrLen = 728;
+		vrLoc = 1093;
+	};
+	39B5E7DE162233BF00D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
+		name = "firework.cpp: 24";
+		rLen = 0;
+		rLoc = 601;
+		rType = 0;
+		vrLen = 904;
+		vrLoc = 189;
+	};
+	39B5E7E41622343C00D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
+		name = "firework.cpp: 23";
+		rLen = 0;
+		rLoc = 579;
+		rType = 0;
+		vrLen = 904;
+		vrLoc = 189;
+	};
+	39B5E7E81622346500D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
+		name = "firework.cpp: 24";
+		rLen = 0;
+		rLoc = 617;
+		rType = 0;
+		vrLen = 903;
+		vrLoc = 189;
+	};
+	39B5E7EC1622347300D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
+		name = "firework.cpp: 24";
+		rLen = 0;
+		rLoc = 615;
+		rType = 0;
+		vrLen = 904;
+		vrLoc = 189;
+	};
+	39B5E7F01622348100D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
+		name = "firework.cpp: 24";
+		rLen = 0;
+		rLoc = 615;
+		rType = 0;
+		vrLen = 903;
+		vrLoc = 189;
+	};
+	39B5E7F61622351600D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
+		name = "firework.cpp: 22";
+		rLen = 0;
+		rLoc = 541;
+		rType = 0;
+		vrLen = 784;
+		vrLoc = 76;
 	};
 	E4B69B4C0A3A1720003C02F2 /* Project object */ = {
 		activeBuildConfigurationName = Debug;
@@ -1701,6 +2361,72 @@
 			39B5E7161622238400D6F7A8 /* PBXTextBookmark */ = 39B5E7161622238400D6F7A8 /* PBXTextBookmark */;
 			39B5E71A162223E400D6F7A8 /* PBXTextBookmark */ = 39B5E71A162223E400D6F7A8 /* PBXTextBookmark */;
 			39B5E71E162223FB00D6F7A8 /* PBXTextBookmark */ = 39B5E71E162223FB00D6F7A8 /* PBXTextBookmark */;
+			39B5E7221622265E00D6F7A8 /* PBXTextBookmark */ = 39B5E7221622265E00D6F7A8 /* PBXTextBookmark */;
+			39B5E7261622269600D6F7A8 /* PBXTextBookmark */ = 39B5E7261622269600D6F7A8 /* PBXTextBookmark */;
+			39B5E72A162226B000D6F7A8 /* PBXTextBookmark */ = 39B5E72A162226B000D6F7A8 /* PBXTextBookmark */;
+			39B5E72C162226F200D6F7A8 /* PBXTextBookmark */ = 39B5E72C162226F200D6F7A8 /* PBXTextBookmark */;
+			39B5E72F1622271A00D6F7A8 /* PBXTextBookmark */ = 39B5E72F1622271A00D6F7A8 /* PBXTextBookmark */;
+			39B5E7331622273B00D6F7A8 /* PBXTextBookmark */ = 39B5E7331622273B00D6F7A8 /* PBXTextBookmark */;
+			39B5E7371622274A00D6F7A8 /* PBXTextBookmark */ = 39B5E7371622274A00D6F7A8 /* PBXTextBookmark */;
+			39B5E73D1622280800D6F7A8 /* PBXTextBookmark */ = 39B5E73D1622280800D6F7A8 /* PBXTextBookmark */;
+			39B5E7411622282000D6F7A8 /* PBXTextBookmark */ = 39B5E7411622282000D6F7A8 /* PBXTextBookmark */;
+			39B5E7451622284900D6F7A8 /* PBXTextBookmark */ = 39B5E7451622284900D6F7A8 /* PBXTextBookmark */;
+			39B5E7491622286300D6F7A8 /* PBXTextBookmark */ = 39B5E7491622286300D6F7A8 /* PBXTextBookmark */;
+			39B5E74D1622287000D6F7A8 /* PBXTextBookmark */ = 39B5E74D1622287000D6F7A8 /* PBXTextBookmark */;
+			39B5E74F1622288F00D6F7A8 /* PBXTextBookmark */ = 39B5E74F1622288F00D6F7A8 /* PBXTextBookmark */;
+			39B5E7521622294900D6F7A8 /* PBXTextBookmark */ = 39B5E7521622294900D6F7A8 /* PBXTextBookmark */;
+			39B5E7561622295E00D6F7A8 /* PBXTextBookmark */ = 39B5E7561622295E00D6F7A8 /* PBXTextBookmark */;
+			39B5E75E16222A6900D6F7A8 /* PBXTextBookmark */ = 39B5E75E16222A6900D6F7A8 /* PBXTextBookmark */;
+			39B5E76216222A7B00D6F7A8 /* PBXTextBookmark */ = 39B5E76216222A7B00D6F7A8 /* PBXTextBookmark */;
+			39B5E76616222A9400D6F7A8 /* PBXTextBookmark */ = 39B5E76616222A9400D6F7A8 /* PBXTextBookmark */;
+			39B5E76A16222BB800D6F7A8 /* PBXTextBookmark */ = 39B5E76A16222BB800D6F7A8 /* PBXTextBookmark */;
+			39B5E76B16222BB800D6F7A8 /* PBXTextBookmark */ = 39B5E76B16222BB800D6F7A8 /* PBXTextBookmark */;
+			39B5E76C16222BB800D6F7A8 /* PBXTextBookmark */ = 39B5E76C16222BB800D6F7A8 /* PBXTextBookmark */;
+			39B5E76F16222C1300D6F7A8 /* PBXTextBookmark */ = 39B5E76F16222C1300D6F7A8 /* PBXTextBookmark */;
+			39B5E77516222CAA00D6F7A8 /* PBXTextBookmark */ = 39B5E77516222CAA00D6F7A8 /* PBXTextBookmark */;
+			39B5E77B16222D4C00D6F7A8 /* PBXTextBookmark */ = 39B5E77B16222D4C00D6F7A8 /* PBXTextBookmark */;
+			39B5E77F16222D6A00D6F7A8 /* PBXTextBookmark */ = 39B5E77F16222D6A00D6F7A8 /* PBXTextBookmark */;
+			39B5E78316222D7900D6F7A8 /* PBXTextBookmark */ = 39B5E78316222D7900D6F7A8 /* PBXTextBookmark */;
+			39B5E78716222D9E00D6F7A8 /* PBXTextBookmark */ = 39B5E78716222D9E00D6F7A8 /* PBXTextBookmark */;
+			39B5E78B16222DD700D6F7A8 /* PBXTextBookmark */ = 39B5E78B16222DD700D6F7A8 /* PBXTextBookmark */;
+			39B5E78C16222DD700D6F7A8 /* PBXTextBookmark */ = 39B5E78C16222DD700D6F7A8 /* PBXTextBookmark */;
+			39B5E78D16222DD700D6F7A8 /* PBXTextBookmark */ = 39B5E78D16222DD700D6F7A8 /* PBXTextBookmark */;
+			39B5E79116222DED00D6F7A8 /* PBXTextBookmark */ = 39B5E79116222DED00D6F7A8 /* PBXTextBookmark */;
+			39B5E79516222E2300D6F7A8 /* PBXTextBookmark */ = 39B5E79516222E2300D6F7A8 /* PBXTextBookmark */;
+			39B5E79916222F8200D6F7A8 /* PBXTextBookmark */ = 39B5E79916222F8200D6F7A8 /* PBXTextBookmark */;
+			39B5E79F16222FB800D6F7A8 /* PBXTextBookmark */ = 39B5E79F16222FB800D6F7A8 /* PBXTextBookmark */;
+			39B5E7A316222FCA00D6F7A8 /* PBXTextBookmark */ = 39B5E7A316222FCA00D6F7A8 /* PBXTextBookmark */;
+			39B5E7A716222FE600D6F7A8 /* PBXTextBookmark */ = 39B5E7A716222FE600D6F7A8 /* PBXTextBookmark */;
+			39B5E7AB1622300200D6F7A8 /* PBXTextBookmark */ = 39B5E7AB1622300200D6F7A8 /* PBXTextBookmark */;
+			39B5E7AF1622305C00D6F7A8 /* PBXTextBookmark */ = 39B5E7AF1622305C00D6F7A8 /* PBXTextBookmark */;
+			39B5E7B3162230C200D6F7A8 /* PBXTextBookmark */ = 39B5E7B3162230C200D6F7A8 /* PBXTextBookmark */;
+			39B5E7B7162230D800D6F7A8 /* PBXTextBookmark */ = 39B5E7B7162230D800D6F7A8 /* PBXTextBookmark */;
+			39B5E7BB1622321A00D6F7A8 /* PBXTextBookmark */ = 39B5E7BB1622321A00D6F7A8 /* PBXTextBookmark */;
+			39B5E7BC1622321A00D6F7A8 /* PBXTextBookmark */ = 39B5E7BC1622321A00D6F7A8 /* PBXTextBookmark */;
+			39B5E7BD1622321A00D6F7A8 /* PBXTextBookmark */ = 39B5E7BD1622321A00D6F7A8 /* PBXTextBookmark */;
+			39B5E7BE1622328100D6F7A8 /* PBXTextBookmark */ = 39B5E7BE1622328100D6F7A8 /* PBXTextBookmark */;
+			39B5E7BF1622328100D6F7A8 /* PBXTextBookmark */ = 39B5E7BF1622328100D6F7A8 /* PBXTextBookmark */;
+			39B5E7C01622328100D6F7A8 /* PBXTextBookmark */ = 39B5E7C01622328100D6F7A8 /* PBXTextBookmark */;
+			39B5E7C11622328100D6F7A8 /* PBXTextBookmark */ = 39B5E7C11622328100D6F7A8 /* PBXTextBookmark */;
+			39B5E7C6162232E000D6F7A8 /* PBXTextBookmark */ = 39B5E7C6162232E000D6F7A8 /* PBXTextBookmark */;
+			39B5E7C7162232E000D6F7A8 /* PBXTextBookmark */ = 39B5E7C7162232E000D6F7A8 /* PBXTextBookmark */;
+			39B5E7C8162232E000D6F7A8 /* PBXTextBookmark */ = 39B5E7C8162232E000D6F7A8 /* PBXTextBookmark */;
+			39B5E7C9162232E000D6F7A8 /* PBXTextBookmark */ = 39B5E7C9162232E000D6F7A8 /* PBXTextBookmark */;
+			39B5E7CC162232FE00D6F7A8 /* PBXTextBookmark */ = 39B5E7CC162232FE00D6F7A8 /* PBXTextBookmark */;
+			39B5E7D01622335100D6F7A8 /* PBXTextBookmark */ = 39B5E7D01622335100D6F7A8 /* PBXTextBookmark */;
+			39B5E7D11622335100D6F7A8 /* PBXTextBookmark */ = 39B5E7D11622335100D6F7A8 /* PBXTextBookmark */;
+			39B5E7D21622335100D6F7A8 /* PBXTextBookmark */ = 39B5E7D21622335100D6F7A8 /* PBXTextBookmark */;
+			39B5E7D31622335100D6F7A8 /* PBXTextBookmark */ = 39B5E7D31622335100D6F7A8 /* PBXTextBookmark */;
+			39B5E7D41622335100D6F7A8 /* PBXTextBookmark */ = 39B5E7D41622335100D6F7A8 /* PBXTextBookmark */;
+			39B5E7D8162233A800D6F7A8 /* PBXTextBookmark */ = 39B5E7D8162233A800D6F7A8 /* PBXTextBookmark */;
+			39B5E7D9162233A800D6F7A8 /* PBXTextBookmark */ = 39B5E7D9162233A800D6F7A8 /* PBXTextBookmark */;
+			39B5E7DA162233A800D6F7A8 /* PBXTextBookmark */ = 39B5E7DA162233A800D6F7A8 /* PBXTextBookmark */;
+			39B5E7DE162233BF00D6F7A8 /* PBXTextBookmark */ = 39B5E7DE162233BF00D6F7A8 /* PBXTextBookmark */;
+			39B5E7E41622343C00D6F7A8 /* PBXTextBookmark */ = 39B5E7E41622343C00D6F7A8 /* PBXTextBookmark */;
+			39B5E7E81622346500D6F7A8 /* PBXTextBookmark */ = 39B5E7E81622346500D6F7A8 /* PBXTextBookmark */;
+			39B5E7EC1622347300D6F7A8 /* PBXTextBookmark */ = 39B5E7EC1622347300D6F7A8 /* PBXTextBookmark */;
+			39B5E7F01622348100D6F7A8 /* PBXTextBookmark */ = 39B5E7F01622348100D6F7A8 /* PBXTextBookmark */;
+			39B5E7F61622351600D6F7A8 /* PBXTextBookmark */ = 39B5E7F61622351600D6F7A8 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 39B5E57D1621EE9500D6F7A8 /* Source Control */;
 		userBuildSettings = {
@@ -1721,9 +2447,9 @@
 	};
 	E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {985, 1170}}";
-			sepNavSelRange = "{202, 0}";
-			sepNavVisRange = "{0, 633}";
+			sepNavIntBoundsRect = "{{0, 0}, {985, 1230}}";
+			sepNavSelRange = "{683, 0}";
+			sepNavVisRange = "{0, 622}";
 		};
 	};
 	E4B69E1F0A3A1BDC003C02F2 /* testApp.h */ = {
