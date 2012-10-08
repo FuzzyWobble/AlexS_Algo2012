@@ -27,8 +27,9 @@ void firework::init(){
 void firework::drawStreak(){
 	if(streak.size()>3){
 		ofFill();
-		ofSetColor(color.r*ofRandom(1.0,1.5),color.g*ofRandom(1.0,1.5),color.b*ofRandom(1.0,1.5));
-		ofCircle(streakX,streakY,4.0);
+		//ofSetColor(color.r*ofRandom(1.0,1.6),color.g*ofRandom(1.0,1.2),color.b*ofRandom(1.0,1.2));
+		ofSetColor(255,255,255,255);
+		ofCircle(streakX,streakY,sin(ofGetElapsedTimef()*5)*4.0);
 		int lng;
 		if(streak.size()>20){
 			lng = 20;
@@ -84,6 +85,7 @@ void firework::drawExplode(){
 				}
 				for (int j=0;j<lng-1;j++){
 					ofSetColor(color.r*ofRandom(0.5,1.5),color.g*ofRandom(0.5,1.5),color.b*ofRandom(0.5,1.5), 255*(1.0-(j/(float)lng))*((1.0-(ofGetElapsedTimef()-explodeStart)/explodeDuration)) );
+					ofSetLineWidth(3.0*((1.0-(ofGetElapsedTimef()-explodeStart)/explodeDuration)));
 					ofLine(particlePath[i][particlePath[i].size()-j-1].x, particlePath[i][particlePath[i].size()-j-1].y,particlePath[i][particlePath[i].size()-j-2].x, particlePath[i][particlePath[i].size()-j-2].y);
 				}
 			}

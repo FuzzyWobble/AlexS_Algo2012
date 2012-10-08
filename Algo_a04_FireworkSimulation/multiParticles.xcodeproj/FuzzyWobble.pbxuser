@@ -1,0 +1,271 @@
+// !$*UTF8*$!
+{
+	39B5E5411621EE8A00D6F7A8 /* particle.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {985, 795}}";
+			sepNavSelRange = "{1321, 0}";
+			sepNavVisRange = "{537, 792}";
+		};
+	};
+	39B5E5421621EE8A00D6F7A8 /* particle.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {985, 447}}";
+			sepNavSelRange = "{432, 0}";
+			sepNavVisRange = "{0, 527}";
+		};
+	};
+	39B5E54B1621EE8A00D6F7A8 /* multiParticles */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = multiParticles;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	39B5E57D1621EE9500D6F7A8 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	39B5E57E1621EE9500D6F7A8 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	39B5E58B1621EF9900D6F7A8 /* firework.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {985, 570}}";
+			sepNavSelRange = "{308, 0}";
+			sepNavVisRange = "{136, 551}";
+		};
+	};
+	39B5E58C1621EF9900D6F7A8 /* firework.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1724, 1620}}";
+			sepNavSelRange = "{2549, 0}";
+			sepNavVisRange = "{1731, 1132}";
+		};
+	};
+	39B5E6151622042400D6F7A8 /* iostream */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.h;
+		name = iostream;
+		path = "/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/iostream";
+		sourceTree = "<absolute>";
+	};
+	39B5E61E1622045E00D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39B5E6151622042400D6F7A8 /* iostream */;
+		name = "iostream: 77";
+		rLen = 0;
+		rLoc = 2900;
+		rType = 0;
+		vrLen = 1108;
+		vrLoc = 1882;
+	};
+	39B5E6D516221EAB00D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4B69E1D0A3A1BDC003C02F2 /* main.cpp */;
+		name = "main.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 414;
+		vrLoc = 0;
+	};
+	39B5E704162222C700D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39B5E705162222C700D6F7A8 /* stl_vector.h */;
+		name = "stl_vector.h: 602";
+		rLen = 0;
+		rLoc = 20767;
+		rType = 0;
+		vrLen = 984;
+		vrLoc = 20294;
+	};
+	39B5E705162222C700D6F7A8 /* stl_vector.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = stl_vector.h;
+		path = "/usr/include/c++/4.2.1/bits/stl_vector.h";
+		sourceTree = "<absolute>";
+	};
+	39B5E7D01622335100D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
+		name = "testApp.cpp: 31";
+		rLen = 0;
+		rLoc = 683;
+		rType = 0;
+		vrLen = 622;
+		vrLoc = 0;
+	};
+	39B5E7D11622335100D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
+		name = "testApp.h: 30";
+		rLen = 0;
+		rLoc = 493;
+		rType = 0;
+		vrLen = 467;
+		vrLoc = 37;
+	};
+	39B5E7D8162233A800D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39B5E58B1621EF9900D6F7A8 /* firework.h */;
+		name = "firework.h: 20";
+		rLen = 0;
+		rLoc = 308;
+		rType = 0;
+		vrLen = 551;
+		vrLoc = 136;
+	};
+	39B5E828162360EE00D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39B5E5411621EE8A00D6F7A8 /* particle.cpp */;
+		name = "particle.cpp: 50";
+		rLen = 0;
+		rLoc = 1321;
+		rType = 0;
+		vrLen = 792;
+		vrLoc = 537;
+	};
+	39B5E829162360EE00D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39B5E5421621EE8A00D6F7A8 /* particle.h */;
+		name = "particle.h: 19";
+		rLen = 0;
+		rLoc = 432;
+		rType = 0;
+		vrLen = 527;
+		vrLoc = 0;
+	};
+	39B5E830162362F300D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
+		name = "firework.cpp: 88";
+		rLen = 0;
+		rLoc = 2549;
+		rType = 0;
+		vrLen = 1132;
+		vrLoc = 1731;
+	};
+	39B5E8381623631700D6F7A8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39B5E58C1621EF9900D6F7A8 /* firework.cpp */;
+		name = "firework.cpp: 88";
+		rLen = 0;
+		rLoc = 2549;
+		rType = 0;
+		vrLen = 1132;
+		vrLoc = 1731;
+	};
+	E4B69B4C0A3A1720003C02F2 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 39B5E54B1621EE8A00D6F7A8 /* multiParticles */;
+		activeTarget = E4B69B5A0A3A1756003C02F2 /* multiParticles */;
+		addToTargets = (
+			E4B69B5A0A3A1756003C02F2 /* multiParticles */,
+		);
+		codeSenseManager = 39B5E57E1621EE9500D6F7A8 /* Code sense */;
+		executables = (
+			39B5E54B1621EE8A00D6F7A8 /* multiParticles */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					807,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 371417877;
+			PBXWorkspaceStateSaveDate = 371417877;
+		};
+		perUserProjectItems = {
+			39B5E61E1622045E00D6F7A8 /* PBXTextBookmark */ = 39B5E61E1622045E00D6F7A8 /* PBXTextBookmark */;
+			39B5E6D516221EAB00D6F7A8 /* PBXTextBookmark */ = 39B5E6D516221EAB00D6F7A8 /* PBXTextBookmark */;
+			39B5E704162222C700D6F7A8 /* PBXTextBookmark */ = 39B5E704162222C700D6F7A8 /* PBXTextBookmark */;
+			39B5E7D01622335100D6F7A8 /* PBXTextBookmark */ = 39B5E7D01622335100D6F7A8 /* PBXTextBookmark */;
+			39B5E7D11622335100D6F7A8 /* PBXTextBookmark */ = 39B5E7D11622335100D6F7A8 /* PBXTextBookmark */;
+			39B5E7D8162233A800D6F7A8 /* PBXTextBookmark */ = 39B5E7D8162233A800D6F7A8 /* PBXTextBookmark */;
+			39B5E828162360EE00D6F7A8 /* PBXTextBookmark */ = 39B5E828162360EE00D6F7A8 /* PBXTextBookmark */;
+			39B5E829162360EE00D6F7A8 /* PBXTextBookmark */ = 39B5E829162360EE00D6F7A8 /* PBXTextBookmark */;
+			39B5E830162362F300D6F7A8 /* PBXTextBookmark */ = 39B5E830162362F300D6F7A8 /* PBXTextBookmark */;
+			39B5E8381623631700D6F7A8 /* PBXTextBookmark */ = 39B5E8381623631700D6F7A8 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 39B5E57D1621EE9500D6F7A8 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	E4B69B5A0A3A1756003C02F2 /* multiParticles */ = {
+		activeExec = 0;
+		executables = (
+			39B5E54B1621EE8A00D6F7A8 /* multiParticles */,
+		);
+	};
+	E4B69E1D0A3A1BDC003C02F2 /* main.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {985, 447}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 414}";
+		};
+	};
+	E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {985, 1230}}";
+			sepNavSelRange = "{683, 0}";
+			sepNavVisRange = "{0, 622}";
+		};
+	};
+	E4B69E1F0A3A1BDC003C02F2 /* testApp.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {985, 510}}";
+			sepNavSelRange = "{493, 0}";
+			sepNavVisRange = "{37, 467}";
+		};
+	};
+}
