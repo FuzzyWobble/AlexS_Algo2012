@@ -37,6 +37,9 @@ class testApp : public ofBaseApp{
 	
 		float loopDuration;
 	
+		float currentLastTime;
+		float currentTimeDiff;
+	
 		vector <ofSoundPlayer> samples;
 		ofSoundPlayer currentSound;
 	

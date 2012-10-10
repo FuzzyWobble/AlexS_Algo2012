@@ -12,6 +12,8 @@ void testApp::setup(){
 	currentSound.setVolume(0);
 	currentSound.setLoop(true);
 	currentSound.play();
+	
+	ofSetLineWidth(3.0);
 
 }
 
@@ -31,7 +33,7 @@ void testApp::draw(){
 	
 	//duration output
 	ofSetColor(0);
-	ofDrawBitmapString("loops every four seconds, timer:"+ofToString(duration), 5,15);
+	ofDrawBitmapString("press any key to clear, loops every four seconds, timer:"+ofToString(duration), 5,15);
 	
 	if(bRecording){ //draw current line
 		ofNoFill();
@@ -41,8 +43,13 @@ void testApp::draw(){
 		}
 		ofEndShape();
 		float pitch = ofMap(currentPts[currentPts.size()-1].y, 0, (float)ofGetHeight(), 2.5, 0.1);
+		
 		currentSound.setSpeed(pitch);
-		currentSound.setVolume(0.6); //hmm, this is difficult to make variable with the way i set up the code. need to fix this.
+		
+		float currentPointDist = ofDist(currentPts[currentPts.size()-1].x,currentPts[currentPts.size()-1].y,currentPts[currentPts.size()-2].x,currentPts[currentPts.size()-2].y);
+		float vol = currentPointDist/(currentTimeDiff*1000);
+		if(vol>1){vol=1;}
+		currentSound.setVolume(vol); 
 	}
 	else{
 		currentSound.setVolume(0);
@@ -87,7 +94,7 @@ void testApp::draw(){
 			ofPoint vel = getVelocity(i);
 			float velVal = (ofDist(0,0,vel.x,vel.y)/10.0);
 			
-			ofCircle(pos.x, pos.y, 5.0);
+			ofCircle(pos.x, pos.y, 8.0);
 			
 			//y positions effect pitch
 			if(pos.y>0){ //was getting some weird beeping, maybe this IF will fix it?
@@ -96,12 +103,13 @@ void testApp::draw(){
 			}
 			
 			//velocity effects volume
-			float soundVolume = ofMap(velVal,0,15,0,1);
+			float soundVolume = ofMap(velVal,0,10,0,1)*1.2;
+			if(soundVolume>1){soundVolume=1;}
 			samples[i].setVolume(soundVolume);
 		}
 		else{
 			ofSetColor(200);
-			ofCircle(lines[i][0].x, lines[i][0].y, 3);
+			ofCircle(lines[i][0].x, lines[i][0].y, 8);
 			samples[i].setVolume(0);
 		}
 		
@@ -111,7 +119,9 @@ void testApp::draw(){
 
 //--------------------------------------------------------------
 void testApp::keyPressed(int key){
-
+	currentSound.setVolume(0);
+	lines.clear();
+	
 }
 
 //--------------------------------------------------------------
@@ -127,6 +137,9 @@ void testApp::mouseMoved(int x, int y ){
 //--------------------------------------------------------------
 void testApp::mouseDragged(int x, int y, int button){
 
+	currentTimeDiff = ofGetElapsedTimef() - currentLastTime;
+	currentLastTime = ofGetElapsedTimef();
+	
 	if(ofGetElapsedTimef() - dragTimer <= loopDuration){ //we should not record lines longer than an 8 second duration
 		timePoint temp;
 		temp.x = x;

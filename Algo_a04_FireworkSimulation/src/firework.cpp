@@ -29,7 +29,7 @@ void firework::drawStreak(){
 		ofFill();
 		//ofSetColor(color.r*ofRandom(1.0,1.6),color.g*ofRandom(1.0,1.2),color.b*ofRandom(1.0,1.2));
 		ofSetColor(255,255,255,255);
-		ofCircle(streakX,streakY,sin(ofGetElapsedTimef()*5)*4.0);
+		ofCircle(streakX,streakY, 1+(abs(sin(ofGetElapsedTimef()*5))*4.0) );
 		int lng;
 		if(streak.size()>20){
 			lng = 20;
@@ -39,7 +39,7 @@ void firework::drawStreak(){
 		}
 		for(int i=0;i<lng;i++){
 			ofSetColor(color.r-30,color.g-30,color.b-30,150*(1.0-(i/(float)lng)));
-			ofCircle(streak[streak.size()-i-1].x,streak[streak.size()-i-1].y,3.0*(1.0-(i/(float)lng)));
+			ofCircle(streak[streak.size()-i-1].x,streak[streak.size()-i-1].y, 1+(abs(sin(ofGetElapsedTimef()*5))*3.0*(1.0-(i/(float)lng))) );
 		}
 	}
 }
