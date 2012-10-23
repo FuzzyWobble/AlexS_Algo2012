@@ -1,0 +1,238 @@
+// !$*UTF8*$!
+{
+	3997376D1635FD75002AC16F /* testApp.cpp:6 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 6;
+		modificationTime = 372637045.8609489;
+		originalNumberOfMultipleMatches = 0;
+		state = 1;
+	};
+	399737BA1636031C002AC16F /* stl_algo.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = stl_algo.h;
+		path = "/usr/include/c++/4.2.1/bits/stl_algo.h";
+		sourceTree = "<absolute>";
+	};
+	399737C21636034B002AC16F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 399737BA1636031C002AC16F /* stl_algo.h */;
+		name = "stl_algo.h: 125";
+		rLen = 0;
+		rLoc = 4467;
+		rType = 0;
+		vrLen = 928;
+		vrLoc = 4206;
+	};
+	3997383616360B29002AC16F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39BC2DDA163331E700CF9CDC /* particle.h */;
+		name = "particle.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 790;
+		vrLoc = 38;
+	};
+	399738F016362195002AC16F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39BC2DD9163331E700CF9CDC /* particle.cpp */;
+		name = "particle.cpp: 182";
+		rLen = 0;
+		rLoc = 4793;
+		rType = 0;
+		vrLen = 842;
+		vrLoc = 1773;
+	};
+	399738FA16362396002AC16F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
+		name = "testApp.h: 33";
+		rLen = 0;
+		rLoc = 625;
+		rType = 0;
+		vrLen = 561;
+		vrLoc = 79;
+	};
+	39973901163623B1002AC16F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
+		name = "testApp.cpp: 85";
+		rLen = 0;
+		rLoc = 2205;
+		rType = 0;
+		vrLen = 788;
+		vrLoc = 1154;
+	};
+	39973902163623B1002AC16F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4B69E1D0A3A1BDC003C02F2 /* main.cpp */;
+		name = "main.cpp: 9";
+		rLen = 0;
+		rLoc = 226;
+		rType = 0;
+		vrLen = 428;
+		vrLoc = 0;
+	};
+	399739091636261A002AC16F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39BC2DD9163331E700CF9CDC /* particle.cpp */;
+		name = "particle.cpp: 182";
+		rLen = 0;
+		rLoc = 4793;
+		rType = 0;
+		vrLen = 712;
+		vrLoc = 4502;
+	};
+	39BC2DD9163331E700CF9CDC /* particle.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {699, 3390}}";
+			sepNavSelRange = "{4793, 0}";
+			sepNavVisRange = "{4502, 712}";
+			sepNavWindowFrame = "{{38, 294}, {750, 558}}";
+		};
+	};
+	39BC2DDA163331E700CF9CDC /* particle.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {644, 600}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{38, 790}";
+			sepNavWindowFrame = "{{61, 273}, {750, 558}}";
+		};
+	};
+	39BC2DE0163331E700CF9CDC /* 3_particle_particle_fast */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = 3_particle_particle_fast;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	39BC2DF5163331F000CF9CDC /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	39BC2DF6163331F000CF9CDC /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	E4B69B4C0A3A1720003C02F2 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 39BC2DE0163331E700CF9CDC /* 3_particle_particle_fast */;
+		activeTarget = E4B69B5A0A3A1756003C02F2 /* 3_particle_particle_fast */;
+		breakpoints = (
+			3997376D1635FD75002AC16F /* testApp.cpp:6 */,
+		);
+		codeSenseManager = 39BC2DF6163331F000CF9CDC /* Code sense */;
+		executables = (
+			39BC2DE0163331E700CF9CDC /* 3_particle_particle_fast */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					521,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 372642579;
+			PBXWorkspaceStateSaveDate = 372642579;
+		};
+		perUserProjectItems = {
+			399737C21636034B002AC16F /* PBXTextBookmark */ = 399737C21636034B002AC16F /* PBXTextBookmark */;
+			3997383616360B29002AC16F /* PBXTextBookmark */ = 3997383616360B29002AC16F /* PBXTextBookmark */;
+			399738F016362195002AC16F /* PBXTextBookmark */ = 399738F016362195002AC16F /* PBXTextBookmark */;
+			399738FA16362396002AC16F /* PBXTextBookmark */ = 399738FA16362396002AC16F /* PBXTextBookmark */;
+			39973901163623B1002AC16F /* PBXTextBookmark */ = 39973901163623B1002AC16F /* PBXTextBookmark */;
+			39973902163623B1002AC16F /* PBXTextBookmark */ = 39973902163623B1002AC16F /* PBXTextBookmark */;
+			399739091636261A002AC16F /* PBXTextBookmark */ = 399739091636261A002AC16F /* PBXTextBookmark */;
+		};
+		sourceControlManager = 39BC2DF5163331F000CF9CDC /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	E4B69B5A0A3A1756003C02F2 /* 3_particle_particle_fast */ = {
+		activeExec = 0;
+		executables = (
+			39BC2DE0163331E700CF9CDC /* 3_particle_particle_fast */,
+		);
+	};
+	E4B69E1D0A3A1BDC003C02F2 /* main.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {724, 467}}";
+			sepNavSelRange = "{226, 0}";
+			sepNavVisRange = "{0, 428}";
+			sepNavWindowFrame = "{{361, 187}, {750, 558}}";
+		};
+	};
+	E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {699, 1845}}";
+			sepNavSelRange = "{2205, 0}";
+			sepNavVisRange = "{1154, 788}";
+			sepNavWindowFrame = "{{15, 315}, {750, 558}}";
+		};
+	};
+	E4B69E1F0A3A1BDC003C02F2 /* testApp.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {699, 585}}";
+			sepNavSelRange = "{625, 0}";
+			sepNavVisRange = "{79, 561}";
+			sepNavWindowFrame = "{{38, 294}, {750, 558}}";
+		};
+	};
+}
