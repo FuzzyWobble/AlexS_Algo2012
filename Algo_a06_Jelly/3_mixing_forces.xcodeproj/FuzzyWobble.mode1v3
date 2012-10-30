@@ -325,14 +325,14 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>399738741636114C002AC16F</string>
+										<string>399739C61636FBCC002AC16F</string>
 										<key>history</key>
 										<array>
 											<string>39BC2E2B16334FC300CF9CDC</string>
 											<string>39BC2EF61633699700CF9CDC</string>
 											<string>39BC2F2D16336A8D00CF9CDC</string>
 											<string>39BC2F4216336B4600CF9CDC</string>
-											<string>39BC300C1633829900CF9CDC</string>
+											<string>399738741636114C002AC16F</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -344,14 +344,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {805, 464}}</string>
+								<string>{{0, 0}, {805, 458}}</string>
 								<key>RubberWindowFrame</key>
 								<string>14 148 1013 705 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>464pt</string>
+							<string>458pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -364,14 +364,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 469}, {805, 195}}</string>
+								<string>{{0, 463}, {805, 201}}</string>
 								<key>RubberWindowFrame</key>
 								<string>14 148 1013 705 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>195pt</string>
+							<string>201pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -390,9 +390,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>399738751636114C002AC16F</string>
+				<string>399739C71636FBCC002AC16F</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>399738761636114C002AC16F</string>
+				<string>399739C81636FBCC002AC16F</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -530,13 +530,8 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>3997387F1636114C002AC16F</string>
-		<string>399738801636114C002AC16F</string>
-		<string>399738811636114C002AC16F</string>
-		<string>1C78EAAD065D492600B07095</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>39BC2D1D16331C9700CF9CDC</string>
-		<string>/Users/FuzzyWobble/Desktop/Ofx 007/algorithmic_animation_assignments/in_progress/Algo_a06_Jelly/3_mixing_forces.xcodeproj</string>
+		<string>/Users/FuzzyWobble/Desktop/Ofx 007/algorithmic_animation_assignments/Algo_a06_Jelly/3_mixing_forces.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>14 148 1013 705 0 0 1440 878 </string>
@@ -616,7 +611,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>39BC2D1D16331C9700CF9CDC</string>
-				<string>399738771636114C002AC16F</string>
+				<string>399739C91636FBCC002AC16F</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>

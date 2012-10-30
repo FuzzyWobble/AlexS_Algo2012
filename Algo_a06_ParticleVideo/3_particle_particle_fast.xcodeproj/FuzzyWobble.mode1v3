@@ -270,13 +270,13 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>7</integer>
+									<integer>5</integer>
 									<integer>3</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {186, 699}}</string>
+							<string>{{0, 0}, {186, 676}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -288,14 +288,14 @@
 					<key>GeometryConfiguration</key>
 					<dict>
 						<key>Frame</key>
-						<string>{{0, 0}, {203, 717}}</string>
+						<string>{{0, 0}, {203, 694}}</string>
 						<key>GroupTreeTableConfiguration</key>
 						<array>
 							<string>MainColumn</string>
 							<real>186</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>28 120 968 758 0 0 1440 878 </string>
+						<string>506 96 968 735 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -313,7 +313,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>particle.cpp</string>
+								<string>testApp.cpp</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -321,19 +321,19 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>particle.cpp</string>
+										<string>testApp.cpp</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>399739091636261A002AC16F</string>
+										<string>399E6ADE163F487E00807808</string>
 										<key>history</key>
 										<array>
 											<string>399737C21636034B002AC16F</string>
 											<string>3997383616360B29002AC16F</string>
-											<string>399738FA16362396002AC16F</string>
-											<string>39973901163623B1002AC16F</string>
 											<string>39973902163623B1002AC16F</string>
-											<string>399738F016362195002AC16F</string>
+											<string>399E6ADB163F487E00807808</string>
+											<string>399E6ADC163F487E00807808</string>
+											<string>399E6ADD163F487E00807808</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -345,14 +345,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {760, 499}}</string>
+								<string>{{0, 0}, {760, 477}}</string>
 								<key>RubberWindowFrame</key>
-								<string>28 120 968 758 0 0 1440 878 </string>
+								<string>506 96 968 735 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>499pt</string>
+							<string>477pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -365,14 +365,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 504}, {760, 213}}</string>
+								<string>{{0, 482}, {760, 212}}</string>
 								<key>RubberWindowFrame</key>
-								<string>28 120 968 758 0 0 1440 878 </string>
+								<string>506 96 968 735 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>213pt</string>
+							<string>212pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -391,9 +391,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>399738981636131B002AC16F</string>
+				<string>399E6ADF163F487E00807808</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>399738991636131B002AC16F</string>
+				<string>399E6AE0163F487E00807808</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -531,15 +531,11 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>399738B816361BE0002AC16F</string>
-		<string>399738B916361BE0002AC16F</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>39BC2DE9163331F000CF9CDC</string>
-		<string>1C78EAAD065D492600B07095</string>
-		<string>/Users/FuzzyWobble/Desktop/Ofx 007/algorithmic_animation_assignments/in_progress/Algo_a06_ParticleVideo/3_particle_particle_fast.xcodeproj</string>
+		<string>/Users/FuzzyWobble/Desktop/Ofx 007/algorithmic_animation_assignments/Algo_a06_ParticleVideo/3_particle_particle_fast.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>28 120 968 758 0 0 1440 878 </string>
+	<string>506 96 968 735 0 0 1440 878 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -616,7 +612,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>39BC2DE9163331F000CF9CDC</string>
-				<string>3997389A1636131B002AC16F</string>
+				<string>399E6AE1163F487E00807808</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
