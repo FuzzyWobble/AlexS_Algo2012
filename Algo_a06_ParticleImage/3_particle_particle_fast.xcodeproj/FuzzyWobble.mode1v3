@@ -229,8 +229,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -297,7 +295,7 @@
 							<real>186</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>218 143 855 735 0 0 1440 878 </string>
+						<string>15 143 855 735 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -308,12 +306,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>testApp.h</string>
+								<string>testApp.cpp</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -321,18 +321,19 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>testApp.h</string>
+										<string>testApp.cpp</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>3997386716361128002AC16F</string>
+										<string>39C9618A1651DA440072984D</string>
 										<key>history</key>
 										<array>
 											<string>399737C21636034B002AC16F</string>
 											<string>3997380D16360940002AC16F</string>
 											<string>3997383616360B29002AC16F</string>
 											<string>3997384F16360E37002AC16F</string>
-											<string>3997386516361123002AC16F</string>
+											<string>39C961881651DA440072984D</string>
+											<string>39C961891651DA440072984D</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -344,14 +345,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {647, 482}}</string>
+								<string>{{0, 0}, {647, 476}}</string>
 								<key>RubberWindowFrame</key>
-								<string>218 143 855 735 0 0 1440 878 </string>
+								<string>15 143 855 735 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>482pt</string>
+							<string>476pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -364,14 +365,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 487}, {647, 207}}</string>
+								<string>{{0, 481}, {647, 213}}</string>
 								<key>RubberWindowFrame</key>
-								<string>218 143 855 735 0 0 1440 878 </string>
+								<string>15 143 855 735 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>207pt</string>
+							<string>213pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -390,9 +391,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>399737771635FF30002AC16F</string>
+				<string>39C9618B1651DA440072984D</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>399737781635FF30002AC16F</string>
+				<string>39C9618C1651DA440072984D</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -530,15 +531,11 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>399737821635FF30002AC16F</string>
-		<string>399737831635FF30002AC16F</string>
-		<string>1C78EAAD065D492600B07095</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>39BC2DE9163331F000CF9CDC</string>
-		<string>/Users/FuzzyWobble/Desktop/Ofx 007/algorithmic_animation_assignments/in_progress/3_particle_particle_fast/3_particle_particle_fast.xcodeproj</string>
+		<string>/Users/FuzzyWobble/Desktop/Ofx 007/algorithmic_animation_assignments/Algo_a06_ParticleImage/3_particle_particle_fast.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>218 143 855 735 0 0 1440 878 </string>
+	<string>15 143 855 735 0 0 1440 878 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -559,7 +556,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>stl_algo.h</string>
+								<string></string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -576,8 +573,6 @@
 							<string>218pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -617,7 +612,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>39BC2DE9163331F000CF9CDC</string>
-				<string>399737791635FF30002AC16F</string>
+				<string>39C9618D1651DA440072984D</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
