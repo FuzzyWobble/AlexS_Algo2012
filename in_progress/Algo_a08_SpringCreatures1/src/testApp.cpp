@@ -9,7 +9,6 @@ void testApp::setup(){
 	ofSetFrameRate(60);
 	ofEnableAlphaBlending();
 	
-	
 	numCreatures = 1;
 	
 	for(int c=0;c<numCreatures;c++){
@@ -23,7 +22,7 @@ void testApp::setup(){
 		myParticle.setInitialCondition(ofRandom(100,500),ofRandom(100,500),0,0);
 		aCreature.push_back(myParticle);
 		
-		int size = ofRandom(40,80); //set size of creature
+		int size = ofRandom(20,80); //set size of creature
 		
 		//particles
 		for (int i=0;i<size;i++){
@@ -35,8 +34,6 @@ void testApp::setup(){
 			aCreature.push_back(myParticle);
 		}
 		creatures.push_back(aCreature);
-		//aCreature.erase();
-		
 		
 		//springs
 		for (int i=1;i<size+1;i++){ //skip zero
@@ -48,7 +45,6 @@ void testApp::setup(){
 			aSpring.push_back(mySpring);		
 		}
 		springs.push_back(aSpring);
-		//aSpring.erase();
 		
 		//color of creature
 		ofColor creatureColor;
@@ -134,14 +130,14 @@ void testApp::draw(){
 			
 			float scl = 0.01 * (sin(ofGetElapsedTimef()/10.0)+0.1);
 			
-			float rr = 	creaturesColor[c].r * ofNoise(creatures[c][i].pos.x*scl,creatures[c][i].pos.y*scl,creatures[c][i].pos.y*scl);
-			float gg = 	creaturesColor[c].g * ofNoise(creatures[c][i].pos.x*scl,creatures[c][i].pos.y*scl,creatures[c][i].pos.y*scl);
-			float bb = 	creaturesColor[c].b * ofNoise(creatures[c][i].pos.x*scl,creatures[c][i].pos.y*scl,creatures[c][i].pos.y*scl);
+			float rr = 	(creaturesColor[c].r*.2) + ((creaturesColor[c].r*.8) * ofNoise(creatures[c][i].pos.x*scl,creatures[c][i].pos.y*scl,creatures[c][i].pos.y*scl));
+			float gg = 	(creaturesColor[c].g*.2) + ((creaturesColor[c].g*.8) * ofNoise(creatures[c][i].pos.x*scl,creatures[c][i].pos.y*scl,creatures[c][i].pos.y*scl));
+			float bb = 	(creaturesColor[c].b*.2) + ((creaturesColor[c].b*.8) * ofNoise(creatures[c][i].pos.x*scl,creatures[c][i].pos.y*scl,creatures[c][i].pos.y*scl));
 			
 													
 			//particle size - dist from center
 			float pSz = 10.0 - (ofDist(creatures[c][i].pos.x,creatures[c][i].pos.y,creatures[c][0].pos.x,creatures[c][0].pos.y) / 20.0);
-			if(pSz<3){pSz=3;}
+			if(pSz<2){pSz=2;}
 			if(pSz>10){pSz=10;}
 							
 			
@@ -155,16 +151,12 @@ void testApp::draw(){
 			
 			ofSetLineWidth(1);
 			if(i>0){ //one less spring										
-				ofSetColor(rr,gg,bb,240);
+				ofSetColor(rr,gg,bb,180);
 				springs[c][i-1].draw();
 			}
 			
 			if(i>0){ //dont draw particle at center pt
-				for(int a=0;a<6;a++){ //concetric circles
-					ofSetColor(rr,gg,bb,240-(a*20));
-					float pSz2 = ofMap(pSz*a,0,50,1,12);
-					creatures[c][i].draw(pSz2);
-				}
+				creatures[c][i].draw(pSz);
 			}
 		}
 	}
