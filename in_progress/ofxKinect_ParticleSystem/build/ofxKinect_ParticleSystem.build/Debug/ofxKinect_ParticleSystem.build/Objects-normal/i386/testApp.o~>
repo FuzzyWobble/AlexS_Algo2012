@@ -1,0 +1,3 @@
+/Users/FuzzyWobble/Desktop/Ofx 0072/apps/myApps/ofxKinect_ParticleSystem/src/testApp.cpp: In member function 'void testApp::smoothContour()':
+/Users/FuzzyWobble/Desktop/Ofx 0072/apps/myApps/ofxKinect_ParticleSystem/src/testApp.cpp:281: warning: 'addVertexes' is deprecated (declared at ../../../libs/openFrameworks/graphics/ofPolyline.h:26)
+i686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done

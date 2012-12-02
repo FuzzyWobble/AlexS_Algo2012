@@ -295,7 +295,7 @@
 							<real>186</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>134 145 1306 733 0 0 1440 878 </string>
+						<string>135 145 1306 733 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -325,7 +325,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>39BE848B16581903006A3AA3</string>
+										<string>39BE849D16581C34006A3AA3</string>
 										<key>history</key>
 										<array>
 											<string>39C962B6165322CB0072984D</string>
@@ -350,7 +350,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {1098, 456}}</string>
 								<key>RubberWindowFrame</key>
-								<string>134 145 1306 733 0 0 1440 878 </string>
+								<string>135 145 1306 733 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -370,7 +370,7 @@
 								<key>Frame</key>
 								<string>{{0, 461}, {1098, 231}}</string>
 								<key>RubberWindowFrame</key>
-								<string>134 145 1306 733 0 0 1440 878 </string>
+								<string>135 145 1306 733 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -534,7 +534,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>39BE849616581903006A3AA3</string>
 		<string>39BE849716581903006A3AA3</string>
 		<string>39BE849816581903006A3AA3</string>
 		<string>1C78EAAD065D492600B07095</string>
@@ -543,7 +542,7 @@
 		<string>/Users/FuzzyWobble/Desktop/Ofx 007/algorithmic_animation_assignments/in_progress/Algo_a08_SpringCreatures1/multiForces2.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>134 145 1306 733 0 0 1440 878 </string>
+	<string>135 145 1306 733 0 0 1440 878 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>

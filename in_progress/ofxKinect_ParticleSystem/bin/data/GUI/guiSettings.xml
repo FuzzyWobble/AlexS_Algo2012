@@ -1,0 +1,50 @@
+<Widget>
+    <Kind>4</Kind>
+    <Name>UPDATE-KINECT-MILLIS</Name>
+    <Value>54.644351959</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>PARTICLE-DAMPING</Name>
+    <Value>0.065648533</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>PARTICLE-SCALE</Name>
+    <Value>2.000000000</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>PARTICLE-COUNT</Name>
+    <Value>1215.481201172</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>PARTICLE-PARTICLE-REPULSION</Name>
+    <Value>0.146234304</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>PARTICLE-BODY-ATTRACTION</Name>
+    <Value>0.087907948</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>PARTICLE-CONTOUR-ATTRACTION</Name>
+    <Value>0.118912131</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>STEP-A</Name>
+    <Value>60.648536682</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>STEP-B</Name>
+    <Value>20.000000000</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>BRIGHTNESS</Name>
+    <Value>223.012542725</Value>
+</Widget>

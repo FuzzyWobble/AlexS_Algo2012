@@ -1,0 +1,2 @@
+/Users/FuzzyWobble/Desktop/Ofx 0072/apps/myApps/ofxKinect_ParticleSystem/src/particle.cpp:11: error: prototype for 'void particle::draw(float)' does not match any in class 'particle'
+/Users/FuzzyWobble/Desktop/Ofx 0072/apps/myApps/ofxKinect_ParticleSystem/src/particle.h:32: error: candidate is: void particle::draw(int, float)
