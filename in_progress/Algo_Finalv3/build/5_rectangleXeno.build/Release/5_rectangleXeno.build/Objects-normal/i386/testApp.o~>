@@ -1,0 +1,2 @@
+/Users/FuzzyWobble/Desktop/Ofx 007/algorithmic_animation_assignments/in_progress/Algo_Finalv2/src/testApp.cpp: In member function 'void testApp::setPositionForLine(int, int, int)':
+/Users/FuzzyWobble/Desktop/Ofx 007/algorithmic_animation_assignments/in_progress/Algo_Finalv2/src/testApp.cpp:87: error: 'pct' was not declared in this scope

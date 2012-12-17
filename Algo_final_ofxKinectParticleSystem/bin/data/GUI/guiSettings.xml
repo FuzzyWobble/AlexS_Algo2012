@@ -1,0 +1,55 @@
+<Widget>
+    <Kind>4</Kind>
+    <Name>FAR-THRESHOLD</Name>
+    <Value>162.531387329</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>UPDATE-KINECT-MILLIS</Name>
+    <Value>47.866107941</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>PARTICLE-DAMPING</Name>
+    <Value>0.103012547</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>PARTICLE-SCALE</Name>
+    <Value>1.422594190</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>PARTICLE-COUNT</Name>
+    <Value>4020.920410156</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>PARTICLE-PARTICLE-REPULSION</Name>
+    <Value>0.111715481</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>PARTICLE-BODY-ATTRACTION</Name>
+    <Value>0.118912131</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>PARTICLE-CONTOUR-ATTRACTION</Name>
+    <Value>0.089497901</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>STEP-A</Name>
+    <Value>60.648536682</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>STEP-B</Name>
+    <Value>19.853557587</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>BRIGHTNESS</Name>
+    <Value>229.288711548</Value>
+</Widget>
